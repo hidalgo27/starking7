@@ -8,11 +8,11 @@
                 <div class="slider-text">
                     <div class="section-title mb20 headline text-center ">
                         <div class="layer-1-3">
-                            <div class="section-title mb45 headline text-center">
-                                <span class="subtitle text-uppercase">PROGRAMA INTERNACIONAL</span>
+                            <div class="section-title mb-3 headline text-center">
+                                <span class="subtitle text-white text-uppercase">PROGRAMA INTERNACIONAL</span>
                             </div>
-                            <h2 class="third-slide d-none d-sm-block mb-sm-3"><span>BIM EN EDIFICACIONES</span></h2>
-                            <h3 class="third-slide  text-white mt-5 pt-5 "><span>BIM EN EDIFICACIONES</span></h3>
+                            <h2 class="third-slide text-warning mb-sm-3"><span>BIM</span></h2>
+                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>
                             <p class="text-white d-none d-sm-block">En Starking7 lograrás la mejor preparación para los desafíos en la construcción mediante una formación en BIM del mas alto nivel, ya que contamos con un equipo de BIM Managers e instructores internacionales certificados de Autodesk impartiendo una enseñanza de primer nivel en BIM, lo cual garantiza un nivel de aprendizaje de las más altas esferas.</p>
                             <p class="text-white d-none d-sm-block">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>
                         </div>
@@ -44,24 +44,27 @@
                         </div>
                     </div>
 
-                    <div id="sponsor" class="sponsor-section sponsor-2">
+
                         <div class="container">
-                            <div class="" id="sponsor-item-landing">
-                                <div class="sponsor-pic text-center">
-                                    <img src="{{asset('img/sponsor/certiport.png')}}" alt="" class="w-100">
+                            <div class="row justify-content-center">
+                                <div class="col-12 col-sm-6">
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="{{asset('img/sponsor/certiport.png')}}" alt="" class="w-100">
+                                        </div>
+                                        <div class="col">
+                                            <img src="{{asset('img/sponsor/autodesk-white.png')}}" alt="" class="w-100">
+                                        </div>
+                                        <div class="col">
+                                            <img src="{{asset('img/sponsor/colegio.png')}}" alt="" class="w-100">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="sponsor-pic text-center ">
-                                    <img src="{{asset('img/sponsor/autodesk-white.png')}}" alt="" class="w-100">
-                                </div>
-                                <div class="sponsor-pic text-center">
-                                    <img src="{{asset('img/sponsor/colegio.png')}}" alt="" class="w-100">
-                                </div>
-                                <div class="sponsor-pic text-center">
-                                    <img src="{{asset('img/logo/logo-starking-s.png')}}" alt="" class="w-100 pt-4">
-                                </div>
+
                             </div>
+
                         </div>
-                    </div>
+
                 </div>
             </div>
 {{--            <div class="slider-area slider-bg-5 relative-position">--}}

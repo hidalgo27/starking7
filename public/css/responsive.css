@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
 	.select-lang {
 		display: none;
 	}
@@ -64,7 +64,7 @@
 	}
 }
 
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) {
 	.pt150 {
 		padding-top: 80px;
 	}
@@ -134,7 +134,7 @@
 		text-align: center;
 	}
 	.header-info {
-		display: inherit; 
+		display: inherit;
 		margin-left: 0;
 		text-align: center;
 	}
@@ -177,15 +177,15 @@
 		width: 120px;
 	}
 }
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
 	html {
 		overflow-x: hidden;
 	}
 	.slider-bg-1, .slider-bg-2, .slider-bg-3, .slider-bg-4, .slider-bg-5 {
-		height: 65vh;
+		height: 100vh;
 	}
 	.search-course-section {
-		padding: 45px 0px 40px 0px; 
+		padding: 45px 0px 40px 0px;
 	}
 	.popular-course-section {
 		padding-bottom: 40px;
@@ -235,7 +235,7 @@
 	}
 	.category-icon-title {
 		max-width: 270px;
-		margin: 0 auto;	
+		margin: 0 auto;
 		margin-bottom: 20px;
 	}
 	.best-product-section {
@@ -304,7 +304,7 @@
 		top: inherit;
 		position: inherit;
 	}
-	.category-slide .owl-nav { 
+	.category-slide .owl-nav {
 		top: -55px;
 		text-align: right;
 	}
@@ -335,7 +335,7 @@
 	}
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 480px) {
 	.color-switcher {
 		display: none;
 	}
@@ -557,13 +557,17 @@
 	#slider-item .owl-nav {
 		display: none;
 	}
+    .slider-text{
+        top: 50% !important;
+    }
+
 	.slider-text .section-title h2 {
 		font-size: 40px;
 	}
 	.slider-text .section-title .subtitle {
 		font-size: 14px;
 	}
-	.slider-text .section-title .subtitle:before, 
+	.slider-text .section-title .subtitle:before,
 	.slider-text  .section-title .subtitle:after {
 		display: none;
 	}
@@ -639,7 +643,7 @@
 		margin: auto;
 	}
 }
-@media screen and (max-width: 420px) { 
+@media screen and (max-width: 420px) {
 	.widget-title {
 		margin-bottom: 30px;
 	}
@@ -659,7 +663,7 @@
 		margin-top: 10px;
 	}
 }
-@media screen and (max-width: 375px) { 
+@media screen and (max-width: 375px) {
 	.shorting-filter {
 		margin-top: 0;
 	}
@@ -726,7 +730,7 @@
 	}
 
 }
-@media screen and (max-width: 360px) { 
+@media screen and (max-width: 360px) {
 	.cart-search li {
 		width: 15px;
 		margin-left: 5px;

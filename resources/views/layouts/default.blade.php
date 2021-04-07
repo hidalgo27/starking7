@@ -289,9 +289,9 @@
     ============================================= -->
 <section id="contact_secound" class="contact_secound_section backgroud-style">
     <div class="container">
-        <div class="contact_secound_content mt-5 pt-5">
-            <div class="row mt-5">
-                <div class="col-md-6">
+        <div class="contact_secound_content mt-sm-5 pt-sm-5">
+            <div class="row mt-sm-5">
+                <div class="col-md-6 d-none d-sm-flex">
                     <div class="contact-left-content">
                         <div class="section-title  mb45 headline text-left">
                             <span class="subtitle ml42  text-uppercase">CONTÁCTENOS</span>
@@ -308,8 +308,8 @@
                                 </div>
                                 <div class="address-details ul-li-block">
                                     <ul>
-                                        <li><span>Principal: </span>Cusco, 120 La Cultura, 1200</li>
-{{--                                        <li><span>Sedes: </span>Cusco, 120 La Cultura, 1200</li>--}}
+                                        <li><span>Principal: </span>Av. Micaela Bastidas 258 Of. 606 Edificio El Roble Wanchaq, Cusco, Perú</li>
+                                        <li><span>Sedes: </span>230 S Broad St. 17th floor, Of. 19, Philadelphia, PA, 19102, Estados Unidos</li>
                                     </ul>
                                 </div>
                             </div>
@@ -332,7 +332,7 @@
                                 </div>
                                 <div class="address-details ul-li-block">
                                     <ul>
-                                        <li><span>Principal: </span>info@starking7.com</li>
+                                        <li><span>Principal: </span>gerencia@starking7.com</li>
                                         {{--                                        <li><span>Second: </span>mail@genius.info</li>--}}
                                     </ul>
                                 </div>
@@ -374,20 +374,20 @@
 
             <div class="footer_2_subs text-center">
                 <p>Nos tomamos muy en serio nuestra misión de brindar una educación de calidad.</p>
-                <div class="subs-form relative-position">
-                    <form action="#" method="post">
-                        <input class="course" name="course" type="email" placeholder="Email Address.">
-                        <div class="nws-button text-center  gradient-bg text-uppercase">
-                            <button type="submit" value="Submit">Subscribe Ahora</button>
-                        </div>
-                    </form>
-                </div>
+{{--                <div class="subs-form relative-position">--}}
+{{--                    <form action="#" method="post">--}}
+{{--                        <input class="course" name="course" type="email" placeholder="Email Address.">--}}
+{{--                        <div class="nws-button text-center  gradient-bg text-uppercase">--}}
+{{--                            <button type="submit" value="Submit">Subscribe Ahora</button>--}}
+{{--                        </div>--}}
+{{--                    </form>--}}
+{{--                </div>--}}
             </div>
             <div class="copy-right-menu">
                 <div class="row">
                     <div class="col-md-5">
                         <div class="copy-right-text">
-                            <p>© 2021 - nebulaperu.com. All rights reserved</p>
+                            <p>© 2021 - <a href="http://nebulaperu.com/" target="_blank">nebulaperu.com.</a> All rights reserved</p>
                         </div>
                     </div>
                     <div class="col-md-3">

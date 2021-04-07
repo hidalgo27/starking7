@@ -583,7 +583,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 25px; }
 
 .mail-phone .info-id {
-  font-size: 25px;
+  font-size: 19px;
   font-weight: 700;
   color: #fff;
   display: block; }
@@ -1057,7 +1057,7 @@ button.alt-menu-btn.float-left {
 /*----------------------------------------------------*/
 .slider-text {
   position: absolute;
-  top: 50%;
+  top: 43%;
   right: 0;
   left: 0;
   -webkit-transform: translateY(-50%);
