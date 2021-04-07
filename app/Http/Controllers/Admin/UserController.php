@@ -3,6 +3,10 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Departamento;
+use App\Models\Distrito;
+use App\Models\LandingBim;
+use App\Models\Provincia;
 use Illuminate\Http\Request;
 use Spatie\Permission\Models\Role;
 use App\Models\User;
@@ -50,6 +54,10 @@ class UserController extends Controller
     }
 
     public function landing(){
-        return view('admin.landing.landing-bim');
+        $landing = LandingBim::all();
+        $departamento = Departamento::all();
+        $provincia = Provincia::all();
+        $distrito = Distrito::all();
+        return view('admin.landing.landing-bim', compact('landing', 'departamento', 'provincia', 'distrito'));
     }
 }

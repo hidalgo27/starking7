@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>Orion',
+    'logo' => '<b>Admin</b>Starking7',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -273,6 +273,7 @@ return [
             'route'         => 'admin.landing-bim',
 //            'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-list',
+
         ],
 //        [
 //            'text' => 'change_password',
