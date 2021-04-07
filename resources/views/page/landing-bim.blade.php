@@ -11,12 +11,13 @@
                             <div class="section-title mb45 headline text-center">
                                 <span class="subtitle text-uppercase">PROGRAMA INTERNACIONAL</span>
                             </div>
-                            <h2 class="third-slide mb-sm-3"><span>BIM EN EDIFICACIONES</span></h2>
+                            <h2 class="third-slide d-none d-sm-block mb-sm-3"><span>BIM EN EDIFICACIONES</span></h2>
+                            <h3 class="third-slide  text-white mt-5 pt-5 "><span>BIM EN EDIFICACIONES</span></h3>
                             <p class="text-white d-none d-sm-block">En Starking7 lograrás la mejor preparación para los desafíos en la construcción mediante una formación en BIM del mas alto nivel, ya que contamos con un equipo de BIM Managers e instructores internacionales certificados de Autodesk impartiendo una enseñanza de primer nivel en BIM, lo cual garantiza un nivel de aprendizaje de las más altas esferas.</p>
                             <p class="text-white d-none d-sm-block">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>
                         </div>
                     </div>
-                    <div class="layer-1-2 mt-5">
+                    <div class="layer-1-2 mt-sm-5">
                         <div class="coming-countdown ul-li">
                             <p class="text-warning small mt-3 font-weight-bold">APROVECHA LA PREVENTA CON UN 20% DE DESCUENTO HASTA EL 10 DE ABRIL</p>
                             <ul>
