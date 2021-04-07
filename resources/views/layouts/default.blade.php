@@ -56,7 +56,14 @@
 
 <!-- Start of Header section
 		============================================= -->
-
+    @if (session('status'))
+    <div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+        <strong>Gracias por contactar con nosotros!</strong> Su mensaje fue enviado satisfactoriamente.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    @endif
 <header class="header_3 gradient-bg-header">
     <div class="container">
         <div class="navbar-default">
@@ -346,14 +353,15 @@
                         <div class="section-title-2 mb65 headline text-left">
                             <h2>Envíenos un mensaje</h2>
                         </div>
-                        <form class="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                        <form class="contact_form"  method="post" action="{{route('formulario_path')}}">
+                            @csrf
                             <div class="contact-info">
-                                <input class="name" name="name" type="text" placeholder="Nombre completo.">
+                                <input class="name" name="name" type="text" placeholder="Nombre completo." required>
                             </div>
                             <div class="contact-info">
-                                <input class="email" name="email" type="email" placeholder="Email">
+                                <input class="email" name="email" type="email" placeholder="Email" required>
                             </div>
-                            <textarea  placeholder="Mensaje."></textarea>
+                            <textarea  name="mensaje" placeholder="Mensaje."></textarea>
                             <div class="nws-button text-center  gradient-bg text-capitalize">
                                 <button type="submit" value="Submit">ENVIAR MENSAJE AHORA <i class="fas fa-caret-right"></i></button>
                             </div>
@@ -413,6 +421,11 @@
         </div>
     </div>
 </section>
+
+        {{--    <div class="bg-primary p-3 text-white">--}}
+        {{--        {{ session('status') }}--}}
+        {{--    </div>--}}
+
 <!-- ENd Of scound contact section
     ============================================= -->
 <div id="redes">
@@ -443,5 +456,6 @@
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>
 
 <script src="{{asset('js/script.js')}}"></script>
+
 </body>
 </html>

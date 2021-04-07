@@ -8,7 +8,7 @@
                         <tbody>
                         <tr bgcolor="#ffffff">
                             <td valign="top" style="padding:10px 35px 0 35px;color:#ffffff">
-                                <img class="CToWUd" width="350" alt="logo Anacecilia Lucana" src="http://anacecilialucana.com/images/Imagenes-Acabadas/sello-ana.png" style="vertical-align:top;max-width:220px">
+                                <img class="CToWUd" width="350" alt="logo starking7" src="https://starking7.com/img/blog/logo-starking-s.png" style="vertical-align:top;max-width:220px">
                             </td>
 
                         </tr>

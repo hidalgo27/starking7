@@ -884,7 +884,7 @@
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                            3 CERTIFICADOS DE STARKING7 DEL COLEGIO DE INGENIEROS DEL PERU
+                                            3 CERTIFICADOS DE STARKING7 EN CONVENIO CON EL COLEGIO DE INGENIEROS DEL PERU
                                             CONSEJO DEPARTAMENTAL CUSCO
                                             (VALIDOS A NIVEL NACIONAL - PERU)
                                     </div>

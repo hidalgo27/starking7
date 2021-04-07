@@ -11,9 +11,7 @@
                     <tbody>
                     <tr>
                         <td style="text-align:left">
-                            <p><strong>Phone: {{$phone}}</strong></p>
                             <p><strong>Email: {{$email}}</strong></p>
-                            <p><strong>Distrito: {{$distrito}}</strong></p>
                             <p><strong>Mensaje: {{$messages}}</strong></p>
                         </td>
                     </tr>

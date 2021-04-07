@@ -28,3 +28,6 @@ Route::get('/landing-bim', [HomeController::class, 'landingbim'])->name('landing
 Route::get('/ubigeoDe', [HomeController::class, 'ubigeoDe'])->name('ubigeode');
 Route::get('/ubigeoPr', [HomeController::class, 'ubigeoPr'])->name('ubigeopr');
 Route::get('/ubigeoDi', [HomeController::class, 'ubigeoDi'])->name('ubigeodi');
+
+Route::post('/bim-register-landing', [HomeController::class, 'bim_register_landing'])->name('bim-register-landing');
+Route::post('/formulario-diseno', [HomeController::class, 'formulario'])->name('formulario_path');
