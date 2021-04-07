@@ -43,7 +43,7 @@ class HomeController extends Controller
     }
 
     public function bim_register_landing(Request $request){
-        $from = 'hidalgochponce@gmail.com';
+//        $from = 'hidalgochponce@gmail.com';
         $nombre = $request->form_data['nombre'];
         $celular = $request->form_data['celular'];
         $email = $request->form_data['email'];
@@ -96,7 +96,7 @@ class HomeController extends Controller
     }
 
     public function formulario(Request $request){
-        $from = "hidalgochponce@gmail.com";
+        $from = "info@starking7.com";
         $email = $request->email;
         $name = $request->name;
         $mensaje = $request->mensaje;
@@ -116,7 +116,6 @@ class HomeController extends Controller
             ], function ($messaje) use ($from) {
                 $messaje->to($from, 'STARKING7 | BIM EN EDIFICACIONES')
                     ->subject('STARKING7 | BIM EN EDIFICACIONES')
-//                    ->cc($from2, 'GotoPeru')
                     /*->attach('ruta')*/
                     ->from('info@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
