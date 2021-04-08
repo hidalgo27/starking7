@@ -17,7 +17,7 @@
                             <p class="text-white d-none d-sm-block">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>
                         </div>
                     </div>
-                    <div class="layer-1-2 mt-sm-5">
+                    <div class="layer-1-2 mt-sm-5 mb-4 text-center">
                         <div class="coming-countdown ul-li">
                             <p class="text-warning small mt-3 font-weight-bold">APROVECHA LA PREVENTA CON UN 20% DE DESCUENTO HASTA EL 13 DE ABRIL</p>
                             <ul>
@@ -42,6 +42,7 @@
                                 </li>
                             </ul>
                         </div>
+                        <a href="#inscripciones" class="btn btn-warning text-white font-weight-bold">Pre inscripciones aquí</a>
                     </div>
 
 
@@ -1215,7 +1216,7 @@
         </div>
     </section>
 
-    <section id="about-us" class="about-us-section home-secound home-third bg-light">
+    <section id="inscripciones" class="about-us-section home-secound home-third bg-light">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5">

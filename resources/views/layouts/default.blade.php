@@ -118,7 +118,7 @@
                 <div class="login-cart-lang float-right ul-li">
                     <ul class="search_cart">
                         <li class="login">
-                            <a href="#">
+                            <a href="#contacto">
                                 Contacto
                             </a>
                         </li>
@@ -294,7 +294,7 @@
 
 <!-- Start Of scound contact section
     ============================================= -->
-<section id="contact_secound" class="contact_secound_section backgroud-style">
+<section id="contacto" class="contact_secound_section backgroud-style">
     <div class="container">
         <div class="contact_secound_content mt-sm-5 pt-sm-5">
             <div class="row mt-sm-5">
