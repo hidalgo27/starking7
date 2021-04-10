@@ -6,6 +6,59 @@
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <style>
+
+
+
+        /* Override bootstrap column paddings */
+        .tz-gallery .row > div {
+            padding: 2px;
+        }
+
+        .tz-gallery .lightbox2 img {
+            width: 100%;
+            border-radius: 0;
+            position: relative;
+        }
+
+        .tz-gallery .lightbox2:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -13px;
+            margin-left: -13px;
+            opacity: 0;
+            color: #fff;
+            font-size: 26px;
+            font-family: 'Glyphicons Halflings';
+            content: '\e003';
+            pointer-events: none;
+            z-index: 9000;
+            transition: 0.4s;
+        }
+
+
+        .tz-gallery .lightbox2:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background-color: rgba(46, 132, 206, 0.7);
+            content: '';
+            transition: 0.4s;
+        }
+
+        .tz-gallery .lightbox2:hover:after,
+        .tz-gallery .lightbox2:hover:before {
+            opacity: 1;
+        }
+
+        .baguetteBox-button {
+            background-color: transparent !important;
+        }
+    </style>
     <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
     <link rel="stylesheet" href="{{asset('css/fontawesome-all.css')}}">
     <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
@@ -17,6 +70,7 @@
     <link rel="stylesheet" href="{{asset('css/progess.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
     {{--    <link rel="stylesheet"  href="{{asset('css/colors/switch.css')}}">--}}
     {{--    <link href="{{asset('css/colors/color-2.css')}}" rel="alternate stylesheet" type="text/css" title="color-2">--}}
@@ -131,13 +185,13 @@
                             <li class="menu-item-has-children ul-li-block">
                                 <a href="#!">Formación Integral</a>
                                 <ul class="sub-menu">
-                                    <li><a href="teacher.html">BIM en edificaciones</a></li>
-                                    <li><a href="teacher-details.html">BIN para infraestructura</a></li>
+                                    <li><a href="{{route('landingbim')}}">BIM en edificaciones</a></li>
+{{--                                    <li><a href="teacher-details.html">BIN para infraestructura</a></li>--}}
                                 </ul>
                             </li>
-                            <li><a href="shop.html">Cursos</a></li>
-                            <li><a href="shop.html">Certificación Global</a></li>
-                            <li><a href="contact.html">Construcción y Bienes Raíces</a></li>
+                            <li><a href="/#cursos">Cursos</a></li>
+                            <li><a href="/#certificacion-global">Certificación Global</a></li>
+                            <li><a href="{{asset(route('construccion'))}}">Construcción y Bienes Raíces</a></li>
                             <li><a href="contact.html">Nosotros</a></li>
                         </ul>
                     </div>
@@ -456,6 +510,11 @@
 <script src="http://maps.google.com/maps/api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>
 
 <script src="{{asset('js/script.js')}}"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
 
 </body>
 </html>

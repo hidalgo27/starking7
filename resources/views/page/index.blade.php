@@ -254,12 +254,12 @@
         ============================================= -->
     <!-- Start of why choose us section
             ============================================= -->
-    <section id="why-choose-us" class="why-choose-us-section">
+    <section id="cursos" class="why-choose-us-section">
         <div class="jarallax  backgroud-style">
             <div class="container">
                 <div class="section-title mb20 headline text-center "  >
                     <span class="subtitle text-uppercase">VENTAJAS STARKING7</span>
-                    <h2>Razones <span>Por que elegir Starkin7.</span></h2>
+                    <h2>Razones <span>Por que elegir Starkin7</span></h2>
                 </div>
                 <div id="service-slide-item" class="service-slide">
                     <div class="service-text-icon "  >
@@ -321,7 +321,7 @@
                 <!-- /service-slide -->
                 <div  class="testimonial-slide">
                     <div class="section-title-2 mb65 headline text-left "  >
-                        <h2>Cursos <span>Asincrónicos.</span></h2>
+                        <h2>Cursos <span>Asincrónicos</span></h2>
                     </div>
 
                     <div id="testimonial-slide-item" class="testimonial-slide-area">
@@ -353,11 +353,11 @@
 
     <!-- Start of best course
         ============================================= -->
-    <section id="best-course" class="best-course-section">
+    <section id="certificacion-global" class="best-course-section">
         <div class="container">
             <div class="section-title mb45 headline text-center">
                 <span class="subtitle text-uppercase">CERTIFICACIÓN</span>
-                <h2>Certificación<span> Global.</span></h2>
+                <h2>Certificación<span> Global</span></h2>
             </div>
             <div class="best-course-area mb45">
                 <div class="row">

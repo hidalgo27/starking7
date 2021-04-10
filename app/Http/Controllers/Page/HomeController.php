@@ -21,6 +21,9 @@ class HomeController extends Controller
     public function landingbim(){
         return view('page.landing-bim');
     }
+    public function construccion(){
+        return view('page.construccion');
+    }
     public function ubigeoDe(){
         $departamento = Departamento::with('provincia.distrito')->get();
         return json_encode(
