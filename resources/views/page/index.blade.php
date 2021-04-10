@@ -160,17 +160,17 @@
             <div id="course-slide-item" class="course-slide">
                 <div class="course-item-pic-text">
                     <div class="course-pic relative-position mb25">
-                        <img src="{{asset('img/course/c-a1.jpg')}}" alt="" class="w-100">
+                        <img src="{{asset('img/course/c-a1.jpg')}}" alt="" class="w-100 bw grey">
                         <div class="course-price text-center gradient-bg">
-                            <span>NUEVO</span>
+                            <span>Próximamente</span>
                         </div>
-                        <div class="course-details-btn">
-                            <a href="#">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
-                        </div>
+{{--                        <div class="course-details-btn">--}}
+{{--                            <a href="#">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>--}}
+{{--                        </div>--}}
                     </div>
                     <div class="course-item-text">
                         <div class="course-title mt10 headline pb45 relative-position">
-                            <h3><a href="#">BIM para infraestructura</a> <span class="trend-badge text-uppercase bold-font">En Vivo</span></h3>
+                            <h3>BIM para infraestructura</h3>
                         </div>
                     </div>
                 </div>
@@ -182,28 +182,28 @@
                             <span>NUEVO</span>
                         </div>
                         <div class="course-details-btn">
-                            <a href="#">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
+                            <a href="{{route('landingbim')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="course-item-text">
                         <div class="course-title mt10 headline pb45 relative-position">
-                            <h3><a href="#">Modelado y gestión BIM en edificaciones</a> <span class="trend-badge text-uppercase bold-font">En Vivo</span></h3>
+                            <h3><a href="{{route('landingbim')}}">Modelado y gestión BIM en edificaciones</a> <span class="trend-badge text-uppercase bold-font">En Vivo</span></h3>
                         </div>
                     </div>
                 </div>
                 <div class="course-item-pic-text">
                     <div class="course-pic relative-position mb25">
-                        <img src="{{asset('img/course/c-a3.jpg')}}" alt="" class="w-100">
+                        <img src="{{asset('img/course/c-a3.jpg')}}" alt="" class="w-100 bw grey">
                         <div class="course-price text-center gradient-bg">
-                            <span>NUEVO</span>
+                            <span>Próximamente</span>
                         </div>
-                        <div class="course-details-btn">
-                            <a href="#">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
-                        </div>
+{{--                        <div class="course-details-btn">--}}
+{{--                            <a href="#">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>--}}
+{{--                        </div>--}}
                     </div>
                     <div class="course-item-text">
                         <div class="course-title mt10 headline pb45 relative-position">
-                            <h3><a href="#">Project management - PMI</a> <span class="trend-badge text-uppercase bold-font">En Vivo</span></h3>
+                            <h3>Project management - PMI</h3>
                         </div>
                     </div>
                 </div>
@@ -328,21 +328,20 @@
                         <div class="student-qoute"  >
                             <p class="text-light">Estudia en tu tiempo libre permitiendo administrar tu tiempo de la mejor manera, a traves de nuestros cursos grabados semi asistidos, recibiendo la asesoria y resolucion de consultas de manera constante.</p>
                         </div>
+                        <div class="student-qoute">
+                            <img src="{{asset('img/banner/d.jpg')}}" alt="" class="w-100">
+                        </div>
+                        <div class="student-qoute"  >
+                            <img src="{{asset('img/banner/c.jpg')}}" alt="" class="w-100">
+                        </div>
+                        <div class="student-qoute"  >
+                            <img src="{{asset('img/banner/b.jpg')}}" alt="" class="w-100">
+                        </div>
                         <div class="student-qoute"  >
                             <img src="{{asset('img/banner/a.jpg')}}" alt="" class="w-100">
                         </div>
 
-                        <div class="student-qoute"  >
-                            <img src="{{asset('img/banner/b.jpg')}}" alt="" class="w-100">
-                        </div>
 
-                        <div class="student-qoute"  >
-                            <img src="{{asset('img/banner/c.jpg')}}" alt="" class="w-100">
-                        </div>
-
-                        <div class="student-qoute">
-                            <img src="{{asset('img/banner/d.jpg')}}" alt="" class="w-100">
-                        </div>
                     </div>
                 </div>
             </div>

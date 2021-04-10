@@ -4474,6 +4474,15 @@ ul.product-tab li.active:after {
       color: #f7cd1d;
       float: right; }
 
+img.bw {
+    filter: grayscale(0);
+}
+
+img.bw.grey {
+    filter: grayscale(1);
+    transition-property: filter;
+    transition-duration: 1s;
+}
 
 /*---------------------------------------------------- */
 /*Contact  section*/
