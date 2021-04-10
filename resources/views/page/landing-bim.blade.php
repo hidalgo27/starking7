@@ -1,4 +1,7 @@
 @extends('layouts.default')
+@section('preloader')
+    <div id="preloader"></div>
+@endsection
 @section('content')
     <!-- Start of about us section
 		============================================= -->

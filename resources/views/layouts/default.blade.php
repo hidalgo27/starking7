@@ -86,7 +86,7 @@
 
 <body>
 <div id="app">
-<div id="preloader"></div>
+    @yield('preloader')
 
 
 {{--<div id="switch-color" class="color-switcher">--}}
