@@ -940,7 +940,7 @@ switchOpen: function (){
 countDown:  function (){
 	if ($('.coming-countdown').length > 0) {
      // Specify the deadline date
-     var deadlineDate = new Date('April 13, 2021 23:59:59').getTime();
+     var deadlineDate = new Date('April 27, 2021 23:59:59').getTime();
 
      // Cache all countdown boxes into consts
      var countdownDays = document.querySelector('.days .number');

@@ -84,7 +84,7 @@
                                     <span class>Segundos</span>
                                 </li>
                             </ul>
-                            <p class="text-success small mt-3 font-weight-bold">APROVECHA LA PREVENTA CON UN 20% DE DESCUENTO HASTA EL 10 DE ABRIL</p>
+                            <p class="text-success small mt-3 font-weight-bold">INICO DE CLASES 27 DE ABRIL. SEPARA TU VACANTE.</p>
                         </div>
                     </div>
                     <div class="section-title mb20 headline text-center ">
