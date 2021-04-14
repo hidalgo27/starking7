@@ -72,7 +72,7 @@ class HomeController extends Controller
                 $messaje->to($email, $nombre)
                     ->subject('STARKING7 | BIM EN EDIFICACIONES')
                     /*->attach('ruta')*/
-                    ->from('gerencia@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
 //            Mail::send(['html' => 'notifications.admin'], [
@@ -87,7 +87,7 @@ class HomeController extends Controller
 //                    ->subject('STARKING7 | BIM EN EDIFICACIONES')
 ////                    ->cc($from2, 'GotoPeru')
 //                    /*->attach('ruta')*/
-//                    ->from('gerencia@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+//                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
 //            });
 
 
@@ -102,7 +102,7 @@ class HomeController extends Controller
     }
 
     public function formulario(Request $request){
-        $from = "gerencia@starking7.com";
+        $from = "gerenciatic@starking7.com";
         $email = $request->email;
         $name = $request->name;
         $mensaje = $request->mensaje;
@@ -112,7 +112,7 @@ class HomeController extends Controller
                 $messaje->to($email, $name)
                     ->subject('STARKING7 | BIM EN EDIFICACIONES')
                     /*->attach('ruta')*/
-                    ->from('gerencia@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
             Mail::send(['html' => 'notifications.admin'], [
@@ -123,7 +123,7 @@ class HomeController extends Controller
                 $messaje->to($from, 'STARKING7 | BIM EN EDIFICACIONES')
                     ->subject('STARKING7 | BIM EN EDIFICACIONES')
                     /*->attach('ruta')*/
-                    ->from('gerencia@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
 
