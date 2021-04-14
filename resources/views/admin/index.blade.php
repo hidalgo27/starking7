@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Orion')
+@section('title', 'Starking7')
 
 @section('content_header')
     <h1>Starking7</h1>
@@ -11,7 +11,7 @@
 @stop
 
 @section('css')
-    /*<link rel="stylesheet" href="/css/admin_custom.css">*/
+
 @stop
 
 @section('js')

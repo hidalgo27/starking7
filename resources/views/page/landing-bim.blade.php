@@ -22,7 +22,7 @@
                     </div>
                     <div class="layer-1-2 mt-sm-5 mb-4 text-center">
                         <div class="coming-countdown ul-li">
-                            <p class="text-warning small mt-3 font-weight-bold">INICO DE CLASES 27 DE ABRIL. SEPARA TU VACANTE.</p>
+                            <p class="text-warning mt-3 font-weight-bold">INICO DE CLASES 27 DE ABRIL. SEPARA TU VACANTE.</p>
                             <ul>
                                 <li class="days">
                                     <span class="number"></span>

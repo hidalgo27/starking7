@@ -30,6 +30,9 @@ class HomeController extends Controller
             $departamento
         );
     }
+    public function metodos_pagos(){
+        return view('page.');
+    }
 
     public function ubigeoPr(){
         $provincia = Provincia::all();

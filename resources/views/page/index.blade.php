@@ -63,6 +63,7 @@
                 <div class="slider-text">
                     <div class="layer-1-2">
                         <div class="coming-countdown ul-li">
+                            <h4 class="text-warning pb-4 d-block font-weight-bold">INICO DE CLASES 27 DE ABRIL <br> SEPARA TU VACANTE</h4>
                             <ul>
                                 <li class="days">
                                     <span class="number"></span>
@@ -84,12 +85,13 @@
                                     <span class>Segundos</span>
                                 </li>
                             </ul>
-                            <p class="text-success small mt-3 font-weight-bold">INICO DE CLASES 27 DE ABRIL. SEPARA TU VACANTE.</p>
+
                         </div>
                     </div>
                     <div class="section-title mb20 headline text-center ">
                         <div class="layer-1-3">
-                            <h2 class="third-slide"> BIM EN <br><span>EDIFICACIONES</span></h2>
+                            <h2 class="third-slide h1 text-warning mb-sm-3"><span>BIM</span></h2>
+                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>
                         </div>
                     </div>
                     <div class="layer-1-4">
@@ -153,14 +155,30 @@
         <div class="container">
             <div class="section-title mb20 headline text-left">
                 <span class="subtitle text-uppercase">BIM</span>
-                <h2><span>Formaciòn</span> Integral.</h2>
+                <h2><span>Formación</span> Integral.</h2>
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-12 col-sm-8">
                         <p>Capacitate con un equipo integrado con los mejores docentes a nivel mundial logrando un nivel de aprendizaje de las mas altas esferas para convertirte en el profesional mas destacado y cotizado por las empresas e instituciones</p>
                     </div>
                 </div>
             </div>
             <div id="course-slide-item" class="course-slide">
+                <div class="course-item-pic-text">
+                    <div class="course-pic relative-position mb25">
+                        <img src="{{asset('img/course/c-a2.jpg')}}" alt="" class="w-100">
+                        <div class="course-price text-center gradient-bg">
+                            <span>NUEVO</span>
+                        </div>
+                        <div class="course-details-btn">
+                            <a href="{{route('landingbim')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="course-item-text">
+                        <div class="course-title mt10 headline pb45 relative-position">
+                            <h3><a href="{{route('landingbim')}}">Modelado y gestión BIM en edificaciones</a> <span class="trend-badge text-uppercase bold-font">En Vivo</span></h3>
+                        </div>
+                    </div>
+                </div>
                 <div class="course-item-pic-text">
                     <div class="course-pic relative-position mb25">
                         <img src="{{asset('img/course/c-a1.jpg')}}" alt="" class="w-100 bw grey">
@@ -178,22 +196,7 @@
                     </div>
                 </div>
 
-                <div class="course-item-pic-text">
-                    <div class="course-pic relative-position mb25">
-                        <img src="{{asset('img/course/c-a2.jpg')}}" alt="" class="w-100">
-                        <div class="course-price text-center gradient-bg">
-                            <span>NUEVO</span>
-                        </div>
-                        <div class="course-details-btn">
-                            <a href="{{route('landingbim')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="course-item-text">
-                        <div class="course-title mt10 headline pb45 relative-position">
-                            <h3><a href="{{route('landingbim')}}">Modelado y gestión BIM en edificaciones</a> <span class="trend-badge text-uppercase bold-font">En Vivo</span></h3>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="course-item-pic-text">
                     <div class="course-pic relative-position mb25">
                         <img src="{{asset('img/course/c-a3.jpg')}}" alt="" class="w-100 bw grey">
@@ -260,77 +263,78 @@
     <section id="cursos" class="why-choose-us-section">
         <div class="jarallax  backgroud-style">
             <div class="container">
-                <div class="section-title mb20 headline text-center "  >
+                <div class="section-title mb20 headline text-center pb-5">
                     <span class="subtitle text-uppercase">VENTAJAS STARKING7</span>
-                    <h2>Razones <span>Por que elegir Starkin7</span></h2>
+                    <h2><span>Cursos Asincrónicos</span></h2>
+                    <p class="text-light">Estudia en tu tiempo libre permitiendo administrar tus recursos de la mejor manera, a traves de nuestros cursos grabados semi asistidos, recibiendo la asesoria y resolucion de consultas de manera constante.</p>
                 </div>
-                <div id="service-slide-item" class="service-slide">
-                    <div class="service-text-icon "  >
-                        <div class="service-icon float-left">
-                            <i class="text-gradiant flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3 class="bold-font">Únicos en la Región.</h3>
-                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>
-                        </div>
-                    </div>
-                    <div class="service-text-icon">
-                        <div class="service-icon float-left">
-                            <i class="text-gradiant flaticon-clipboard-with-pencil"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3 class="bold-font">Certificación Global.</h3>
-                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>
-                        </div>
-                    </div>
-                    <div class="service-text-icon">
-                        <div class="service-icon float-left">
-                            <i class="text-gradiant flaticon-clipboard-with-pencil"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3 class="bold-font">Experiencia Comprobada.</h3>
-                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>
-                        </div>
-                    </div>
-                    <div class="service-text-icon "  >
-                        <div class="service-icon float-left">
-                            <i class="text-gradiant flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3 class="bold-font">El poder de la educación.</h3>
-                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>
-                        </div>
-                    </div>
-                    <div class="service-text-icon "  >
-                        <div class="service-icon float-left">
-                            <i class="text-gradiant flaticon-clipboard-with-pencil"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3 class="bold-font">Mejor educación en línea.</h3>
-                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>
-                        </div>
-                    </div>
-                    <div class="service-text-icon "  >
-                        <div class="service-icon float-left">
-                            <i class="text-gradiant flaticon-list"></i>
-                        </div>
-                        <div class="service-text">
-                            <h3 class="bold-font">Educación para todos los estudiantes.</h3>
-                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>
-                        </div>
-                    </div>
+{{--                <div id="service-slide-item" class="service-slide">--}}
+{{--                    <div class="service-text-icon "  >--}}
+{{--                        <div class="service-icon float-left">--}}
+{{--                            <i class="text-gradiant flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i>--}}
+{{--                        </div>--}}
+{{--                        <div class="service-text">--}}
+{{--                            <h3 class="bold-font">Únicos en la Región.</h3>--}}
+{{--                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-text-icon">--}}
+{{--                        <div class="service-icon float-left">--}}
+{{--                            <i class="text-gradiant flaticon-clipboard-with-pencil"></i>--}}
+{{--                        </div>--}}
+{{--                        <div class="service-text">--}}
+{{--                            <h3 class="bold-font">Certificación Global.</h3>--}}
+{{--                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-text-icon">--}}
+{{--                        <div class="service-icon float-left">--}}
+{{--                            <i class="text-gradiant flaticon-clipboard-with-pencil"></i>--}}
+{{--                        </div>--}}
+{{--                        <div class="service-text">--}}
+{{--                            <h3 class="bold-font">Experiencia Comprobada.</h3>--}}
+{{--                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-text-icon "  >--}}
+{{--                        <div class="service-icon float-left">--}}
+{{--                            <i class="text-gradiant flaticon-maths-class-materials-cross-of-a-pencil-and-a-ruler"></i>--}}
+{{--                        </div>--}}
+{{--                        <div class="service-text">--}}
+{{--                            <h3 class="bold-font">El poder de la educación.</h3>--}}
+{{--                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-text-icon "  >--}}
+{{--                        <div class="service-icon float-left">--}}
+{{--                            <i class="text-gradiant flaticon-clipboard-with-pencil"></i>--}}
+{{--                        </div>--}}
+{{--                        <div class="service-text">--}}
+{{--                            <h3 class="bold-font">Mejor educación en línea.</h3>--}}
+{{--                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-text-icon "  >--}}
+{{--                        <div class="service-icon float-left">--}}
+{{--                            <i class="text-gradiant flaticon-list"></i>--}}
+{{--                        </div>--}}
+{{--                        <div class="service-text">--}}
+{{--                            <h3 class="bold-font">Educación para todos los estudiantes.</h3>--}}
+{{--                            <p>Lorem ipsum dolor sit amet consectuerer adipiscing elit set diam nonnumynibh euismod tincidun laoreet.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
                 <!-- /service-slide -->
                 <div  class="testimonial-slide">
-                    <div class="section-title-2 mb65 headline text-left "  >
-                        <h2>Cursos <span>Asincrónicos</span></h2>
-                    </div>
+{{--                    <div class="section-title-2 mb65 headline text-left "  >--}}
+{{--                        <h2>Cursos <span>Asincrónicos</span></h2>--}}
+{{--                    </div>--}}
 
                     <div id="testimonial-slide-item" class="testimonial-slide-area">
-                        <div class="student-qoute"  >
-                            <p class="text-light">Estudia en tu tiempo libre permitiendo administrar tu tiempo de la mejor manera, a traves de nuestros cursos grabados semi asistidos, recibiendo la asesoria y resolucion de consultas de manera constante.</p>
-                        </div>
+{{--                        <div class="student-qoute"  >--}}
+{{--                            <p class="text-light">Estudia en tu tiempo libre permitiendo administrar tu tiempo de la mejor manera, a traves de nuestros cursos grabados semi asistidos, recibiendo la asesoria y resolucion de consultas de manera constante.</p>--}}
+{{--                        </div>--}}
                         <div class="student-qoute">
                             <img src="{{asset('img/banner/d.jpg')}}" alt="" class="w-100">
                         </div>
@@ -360,6 +364,7 @@
             <div class="section-title mb45 headline text-center">
                 <span class="subtitle text-uppercase">CERTIFICACIÓN</span>
                 <h2>Certificación<span> Global</span></h2>
+                <p></p>
             </div>
             <div class="best-course-area mb45">
                 <div class="row">

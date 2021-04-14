@@ -144,12 +144,12 @@
                             </div>
                             <div class="info-content">
                                 <span class="info-id"><a href="https://api.whatsapp.com/send?phone=51932295953" target="_blank" class="info-id">932 295953</a></span>
-                                <span class="info-text">Llámenos para registrarse gratis</span>
+                                <span class="info-text">Para más información</span>
                             </div>
                         </div>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://web.facebook.com/starking7sac" target="_blank">
                             <div class="info-social">
                                 <i class="fab fa-facebook-f"></i>
                             </div>
@@ -157,11 +157,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/starking7inversiones" target="_blank">
                             <div class="info-social">
-                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
                             </div>
-                            <span class="info-text">Twitter</span>
+                            <span class="info-text">Instagram</span>
                         </a>
                     </li>
 
@@ -191,7 +191,8 @@
                             </li>
                             <li><a href="/#cursos">Cursos</a></li>
                             <li><a href="/#certificacion-global">Certificación Global</a></li>
-                            <li><a href="{{asset(route('construccion'))}}">Construcción y Bienes Raíces</a></li>
+                            <li><a href="{{route('construccion')}}">Construcción y Bienes Raíces</a></li>
+                            <li><a href="{{route('metodos_pagos')}}">Métodos de Pago</a></li>
                             <li><a href="contact.html">Nosotros</a></li>
                         </ul>
                     </div>
@@ -232,22 +233,22 @@
                     </button>
                 </div>
                 <ul id="collapse1" class="submenu collapse show" aria-labelledby="heading1" data-parent="#accordion" style="">
-                    <li class="active"><a href="service.html">BIM en edificaciones</a></li>
-                    <li><a href="service-details.html">BIM para infraestructura</a></li>
+                    <li class="active"><a href="{{route('landingbim')}}">BIM en edificaciones</a></li>
+{{--                    <li><a href="service-details.html">BIM para infraestructura</a></li>--}}
                 </ul>
             </li>
             <!-- services - end -->
 
             <li class="card">
-                <a class="menu-link" href="about.html">Cursos</a>
+                <a class="menu-link" href="/#cursos">Cursos</a>
             </li>
 
             <li class="card">
-                <a class="menu-link" href="about.html">Certificación Global</a>
+                <a class="menu-link" href="/#certificacion-global">Certificación Global</a>
             </li>
 
             <li class="card">
-                <a class="menu-link" href="about.html">Construcción y bines raíces</a>
+                <a class="menu-link" href="{{route('construccion')}}">Construcción y bienes raíces</a>
             </li>
 
             <li class="card">
@@ -257,92 +258,7 @@
         </ul>
     </div>
 </div>
-<!-- Start of Header section
 
-
-
-{{--<!-- Start of Header section--}}
-    ============================================= -->
-<header class="d-none">
-    <div id="main-menu"  class="main-menu-container">
-        <div  class="main-menu">
-            <div class="container">
-                <div class="navbar-default">
-                    <div class="navbar-header float-left">
-                        <a class="navbar-brand text-uppercase" href="/"><img src="{{asset('img/blog/logo-starking-s.png')}}" alt="logo" width="300"></a>
-                    </div><!-- /.navbar-header -->
-
-                {{--                    <div class="select-lang">--}}
-                {{--                        <select>--}}
-                {{--                            <option value="9" selected="">ENG</option>--}}
-                {{--                            <option value="10">BAN</option>--}}
-                {{--                            <option value="11">ARB</option>--}}
-                {{--                            <option value="12">FRN</option>--}}
-                {{--                        </select>--}}
-                {{--                    </div>--}}
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                    <nav class="navbar-menu float-right">
-                        <div class="nav-menu ul-li">
-                            <ul>
-                                {{--                                <li class="menu-item-has-children ul-li-block">--}}
-                                {{--                                    <a href="#">Home</a>--}}
-                                {{--                                </li>--}}
-                                <li><a href="about.html">Formación Integral</a></li>
-                                <li><a href="shop.html">Cursos</a></li>
-                                <li><a href="shop.html">Certificaciones</a></li>
-                                <li><a href="contact.html">Construcción y Bienes Raíces</a></li>
-                                <li><a href="contact.html">Nosotros</a></li>
-                                {{--                                <li><a href="contact.html">Contácto</a></li>--}}
-                                {{--                                <li class="menu-item-has-children ul-li-block">--}}
-                                {{--                                    <a href="#!">Pages</a>--}}
-                                {{--                                    <ul class="sub-menu">--}}
-                                {{--                                        <li><a href="teacher.html">Teacher</a></li>--}}
-                                {{--                                        <li><a href="teacher-details.html">Teacher Details</a></li>--}}
-                                {{--                                        <li><a href="blog.html">Blog</a></li>--}}
-                                {{--                                        <li><a href="blog-single.html">Blog Single</a></li>--}}
-                                {{--                                        <li><a href="course.html">Course</a></li>--}}
-                                {{--                                        <li><a href="course-details.html">Course Details</a></li>--}}
-                                {{--                                        <li><a href="faq.html">FAQ</a></li>--}}
-                                {{--                                        <li><a href="check-out.html">Check Out</a></li>--}}
-                                {{--                                    </ul>--}}
-                                {{--                                </li>--}}
-                            </ul>
-                        </div>
-                    </nav>
-
-                    <div class="mobile-menu">
-                        <div class="logo"><a href="/"><img src="{{asset('img/blog/logo-starking-s.png')}}" alt="Logo"></a></div>
-                        <nav>
-                            <ul>
-                                <li><a href="/">Home</a>
-                                </li>
-                                <li><a href="about.html">Formación Integral</a></li>
-                                <li><a href="blog.html">Cursos</a></li>
-                                <li><a href="shop.html">Certificaciones</a></li>
-                                <li><a href="contact.html">Construcción y Bienes Raíces</a></li>
-                                <li><a href="contact.html">Nosotros</a></li>
-                                <li><a href="contact.html">Contácto</a></li>
-                                {{--                                <li><a href="#">Pages</a>--}}
-                                {{--                                    <ul>--}}
-                                {{--                                        <li><a href="course.html">Course</a></li>--}}
-                                {{--                                        <li><a href="course-details.html">course sinlge</a></li>--}}
-                                {{--                                        <li><a href="teacher.html">teacher</a></li>--}}
-                                {{--                                        <li><a href="teacher-details.html">teacher details</a></li>--}}
-                                {{--                                        <li><a href="faq.html">FAQ</a></li>--}}
-                                {{--                                        <li><a href="check-out.html">Check Out</a></li>--}}
-                                {{--                                    </ul>--}}
-                                {{--                                </li>--}}
-                            </ul>
-                        </nav>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-<!-- Start of Header section
-    ============================================= -->
 
 @yield('content')
 
