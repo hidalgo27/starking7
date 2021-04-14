@@ -111,7 +111,7 @@ class HomeController extends Controller
             Mail::send(['html' => 'notifications.page'], ['name' => $name], function ($messaje) use ($email, $name) {
                 $messaje->to($email, $name)
                     ->subject('STARKING7 BIM EN EDIFICACIONES')
-                    ->from('hidalgochponce@gmail.com', 'STARKING7 BIM EN EDIFICACIONES');
+                    ->from('hidalgochponce@gmail.com', 'STARKING7 BIM EN EDIFICACIONES')
             });
 
             Mail::send(['html' => 'notifications.admin'], [
