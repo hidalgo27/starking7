@@ -10,6 +10,7 @@ use App\Models\Provincia;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
+
 class HomeController extends Controller
 {
     public function index(){
@@ -121,7 +122,6 @@ class HomeController extends Controller
             ], function ($messaje) use ($from) {
                 $messaje->to($from, 'STARKING7 | BIM EN EDIFICACIONES')
                     ->subject('STARKING7 | BIM EN EDIFICACIONES')
-                    /*->attach('ruta')*/
                     ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
