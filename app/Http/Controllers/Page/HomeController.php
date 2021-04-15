@@ -110,8 +110,8 @@ class HomeController extends Controller
         try {
             Mail::send(['html' => 'notifications.page'], ['name' => $name], function ($messaje) use ($email, $name) {
                 $messaje->to($email, $name)
-                    ->subject('STARKING7 BIM EN EDIFICACIONES')
-                    ->from('hidalgochponce@gmail.com', 'STARKING7 BIM EN EDIFICACIONES');
+                    ->subject('STARKING7 | BIM EN EDIFICACIONES')
+                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
             Mail::send(['html' => 'notifications.admin'], [
@@ -121,7 +121,8 @@ class HomeController extends Controller
             ], function ($messaje) use ($from) {
                 $messaje->to($from, 'STARKING7 | BIM EN EDIFICACIONES')
                     ->subject('STARKING7 | BIM EN EDIFICACIONES')
-                    ->from('gerenciatic@starking7.com', 'STARKING7 BIM EN EDIFICACIONES');
+                    /*->attach('ruta')*/
+                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
 
