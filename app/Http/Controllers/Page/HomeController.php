@@ -32,7 +32,7 @@ class HomeController extends Controller
         );
     }
     public function metodos_pagos(){
-        return view('page.');
+        return view('page.metodos-pagos');
     }
 
     public function ubigeoPr(){
