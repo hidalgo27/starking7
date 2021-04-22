@@ -1259,7 +1259,8 @@ button.alt-menu-btn.float-left {
 .slider-bg-2,
 .slider-bg-3,
 .slider-bg-4,
-.slider-bg-5 {
+.slider-bg-5,
+.slider-bg-pmi{
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1280,6 +1281,12 @@ button.alt-menu-btn.float-left {
 .slider-bg-5 {
   background-image: url(../img/banner/banner-3.jpg); }
   .slider-bg-5 .slider-text {
+    max-width: 1170px;
+    margin: 0 auto; }
+
+.slider-bg-pmi {
+    background-image: url(../img/banner/banner-4.jpg); }
+.slider-bg-pmi .slider-text {
     max-width: 1170px;
     margin: 0 auto; }
 

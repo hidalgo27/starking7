@@ -24,6 +24,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/bim', [HomeController::class, 'bim'])->name('bim');
 Route::get('/landing-bim', [HomeController::class, 'landingbim'])->name('landingbim');
+Route::get('/landing-pmi', [HomeController::class, 'landingpmi'])->name('landingpmi');
 Route::get('/construccion', [HomeController::class, 'construccion'])->name('construccion');
 Route::get('/metodos-de-pagos', [HomeController::class, 'metodos_pagos'])->name('metodos_pagos');
 

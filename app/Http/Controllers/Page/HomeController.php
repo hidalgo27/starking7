@@ -22,6 +22,9 @@ class HomeController extends Controller
     public function landingbim(){
         return view('page.landing-bim');
     }
+    public function landingpmi(){
+        return view('page.landing-pmi');
+    }
     public function construccion(){
         return view('page.construccion');
     }
