@@ -211,6 +211,13 @@ h1, h2, h3, h4, h5, h6 {
 .pb10 {
   padding-bottom: 10px; }
 
+.text-purple{
+    color: #5911ab !important;
+}
+.rgba-white-6{
+    background: rgba(255,255,255,.6);
+}
+
 .gradient-bg, .modal-body .nws-button button, .teacher-pic-content .teacher-img-content:after, .course-details-category li:hover {
     background: #e6a200;
     background: -moz-linear-gradient(left, #F9D423 0%, #e6a200 51%, #F9D423 100%);
@@ -1821,6 +1828,10 @@ button.alt-menu-btn.float-left {
 .why-choose-us-section .jarallax {
   background-image: url(../img/banner/tesit-b-3.jpg);
   padding: 140px 0px 115px 0px; }
+
+.why-choose-us-section .jarallax2 {
+    background-image: url(../img/banner/tesit-b-4.jpg);
+    padding: 140px 0px 115px 0px; }
 
 .why-choose-us-section .section-title {
   margin-bottom: 50px; }

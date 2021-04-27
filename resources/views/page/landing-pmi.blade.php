@@ -14,8 +14,8 @@
                             <div class="section-title mb-3 headline text-center">
                                 <span class="subtitle text-white text-uppercase">PROGRAMA INTERNACIONAL</span>
                             </div>
-                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-warning mb-sm-3"><span>LEAN PROJECT MANAGEMENT</span></h1>
-                            <h1 class="d-md-none third-slide font-weight-bold text-warning mb-sm-3"><span>LEAN PROJECT MANAGEMENT</span></h1>
+                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN PROJECT MANAGEMENT</span></h1>
+                            <h1 class="d-md-none third-slide font-weight-bold text-purple mb-sm-3"><span>LEAN PROJECT MANAGEMENT</span></h1>
 {{--                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>--}}
 {{--                            <p class="text-white d-none d-sm-block">En Starking7 lograrás la mejor preparación para los desafíos en la construcción mediante una formación en BIM del mas alto nivel, ya que contamos con un equipo de BIM Managers e instructores internacionales certificados de Autodesk impartiendo una enseñanza de primer nivel en BIM, lo cual garantiza un nivel de aprendizaje de las más altas esferas.</p>--}}
 {{--                            <p class="text-white d-none d-sm-block">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>--}}
@@ -88,19 +88,19 @@
     </section>
     <!-- End of about us section
         ============================================= -->
-    <section class="d-sm-none ">
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col">
-                    <p class="">En Starking7 lograrás la mejor preparación para los desafíos en la construcción mediante una formación en BIM del mas alto nivel, ya que contamos con un equipo de BIM Managers e instructores internacionales certificados de Autodesk impartiendo una enseñanza de primer nivel en BIM, lo cual garantiza un nivel de aprendizaje de las más altas esferas.</p>
-                    <img src="{{asset('img/banner/fondo-bim-p.jpg')}}" alt="" class="d-block w-100 mb-2">
-                    <p class="">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>
+{{--    <section class="d-sm-none ">--}}
+{{--        <div class="container mt-4">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col">--}}
+{{--                    <p class="">En Starking7 lograrás la mejor preparación para los desafíos en la construcción mediante una formación en BIM del mas alto nivel, ya que contamos con un equipo de BIM Managers e instructores internacionales certificados de Autodesk impartiendo una enseñanza de primer nivel en BIM, lo cual garantiza un nivel de aprendizaje de las más altas esferas.</p>--}}
+{{--                    <img src="{{asset('img/banner/fondo-bim-p.jpg')}}" alt="" class="d-block w-100 mb-2">--}}
+{{--                    <p class="">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>--}}
 
 
-                </div>
-            </div>
-        </div>
-    </section>
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
     <section id="faq" class="faq-section faq-secound-home-version backgroud-style">
@@ -243,7 +243,7 @@
         <div class="container">
             <div class="section-title mb20 headline text-center">
                 <span class="subtitle text-uppercase">Starking7</span>
-                <h2><span>Talento del PMI</span></h2>
+                <h2><span class="text-purple">Talento del PMI</span></h2>
             </div>
 
 
@@ -301,7 +301,7 @@
         <div class="container">
             <div class="section-title mb45 headline text-center">
                 <span class="subtitle text-uppercase">ESTRUCTURA DEL PROGRAMA DE ESPECIALIZACION</span>
-                <h2><span>CONTENIDO EL PROGRAMA</span></h2>
+                <h2><span class="text-purple">CONTENIDO EL PROGRAMA</span></h2>
 
             </div>
             <div class="affiliate-market-guide mb65">
@@ -317,7 +317,7 @@
                     </div>
                 </div>
                 <div class="section-title-2 mb20 headline text-left mt-5">
-                    <h2><span>Contenido del Programa</span></h2>
+                    <h2><span class="text-purple">Contenido del Programa</span></h2>
                 </div>
 
                 <div class="affiliate-market-accordion">
@@ -701,7 +701,7 @@
         <div class="container">
             <div class="section-title mb45 headline text-center">
                 <span class="subtitle text-uppercase">Starking7</span>
-                <h2><span> INVERSION</span></h2>
+                <h2><span class="text-purple">INVERSION</span></h2>
             </div>
 
 
@@ -999,7 +999,7 @@
         <div class="container">
             <div class="section-title headline text-center">
                 <span class="subtitle text-uppercase">Starking7</span>
-                <h2><span> NUESTRAS CREDENCIALES</span></h2>
+                <h2><span class="text-purple"> NUESTRAS CREDENCIALES</span></h2>
             </div>
             <h3>Certificados de la profesora</h3>
             <div class="row">
@@ -1014,7 +1014,7 @@
             </div>
             <div class="section-title headline mt60">
                 <img src="{{asset('img/banner/instructora.png')}}" alt="" class="float-right">
-                <h2><span>INSTRUCTORA</span></h2>
+                <h2><span class="text-purple">INSTRUCTORA</span></h2>
                 <p class="font-weight-bold">Sonia Ruiz Agile Project Manager PMI-ACP®, PMI-PMP®</p>
                 <p class="font-weight-bold">(España)</p>
                 <p class="font-weight-bold">Directora en NOVAKEY GESTIÓN HÍBRIDA DE PROYECTOS</p>
@@ -1031,6 +1031,28 @@
                 <a href="https://www.linkedin.com/in/sonia-ruiz-agile-project-manager-pmi-acp-pmp-97292329/" class="font-weight-bold d-block">https://www.linkedin.com/in/sonia-ruiz-agile-project-manager-pmi-acp-pmp-97292329/</a>
                 <a href="https://youtu.be/RrOtzoUA3Mk" class="font-weight-bold d-block">https://youtu.be/RrOtzoUA3Mk</a>
 
+            </div>
+        </div>
+    </section>
+
+
+    <section id="why-choose-us" class="why-choose-us-section">
+        <div class="jarallax2  backgroud-style">
+            <div class="container">
+                <div class="section-title mb20 headline text-center "  >
+                    <span class="subtitle text-uppercase d-none d-sm-inline">Sobre nosotros</span>
+                    {{--                    <span class="subtitle text-uppercase d-sm-none">160 horas <br> cronológicas <br> (4 meses)</span>--}}
+                    <h2><span>STARKING7 SAC</span></h2>
+                    <p class="font-weight-bold text-center text-white mt-5">
+                        Somos una empresa peruana de Gestión de Inversiones con asociados en América Latina para el desarrollo de Tecnología, Educación, Construcción, Bienes Raíces y también un Centro Autorizado de Pruebas Certiport y Certificaciones Internacionales.
+                    </p>
+                    <p class="font-weight-bold text-center text-white">
+                        Nuestra Empresa esta conformada por un equipo especializado y de primer nivel que cuenta con mas de 10 años de experiencia en el sector, con proyectos y obras que destacan por su calidad e innovación.
+                    </p>
+                    <p class="font-weight-bold text-center text-white">
+                        Ahora gracias a nuestro convenio con la Compañía Estadounidense Certiport estamos facultados para especializar, y ser un Centro de Pruebas y Certificaciones Internacionales de las marcas mas grandes a nivel mundial como Autodesk, Microsoft, Apple, Adobe, entre otros, logrando de esta manera impulsar este tipo de actividades a nivel nacional y en Latinoamérica.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -1066,7 +1088,7 @@
         <div class="container">
             <div class="section-title mb65 headline text-center">
                 <span class="subtitle text-uppercase mb25">Starking7</span>
-                <h2 class="mt-5"><span>INSIGNIA DIGITAL DE CERTIFICACIÓN</span></h2>
+                <h2 class="mt-5"><span class="text-purple">INSIGNIA DIGITAL DE CERTIFICACIÓN</span></h2>
             </div>
 
             <div class="row">
@@ -1089,7 +1111,7 @@
             </div>
 
             <div class="section-title mb65 d-block headline text-center">
-                <h2 class="mt-3 text-warning">¡MUESTRA<span> TU INSIGNIA!</span></h2>
+                <h2 class="mt-3 text-purple">¡MUESTRA<span> TU INSIGNIA!</span></h2>
             </div>
             <div class="row">
                 <div class="col">
