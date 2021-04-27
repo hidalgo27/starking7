@@ -14,8 +14,8 @@
                             <div class="section-title mb-3 headline text-center">
                                 <span class="subtitle text-white text-uppercase">PROGRAMA INTERNACIONAL</span>
                             </div>
-                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN PROJECT MANAGEMENT</span></h1>
-                            <h1 class="d-md-none third-slide font-weight-bold text-purple mb-sm-3"><span>LEAN PROJECT MANAGEMENT</span></h1>
+                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>
+                            <h1 class="d-md-none third-slide font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>
 {{--                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>--}}
 {{--                            <p class="text-white d-none d-sm-block">En Starking7 lograrás la mejor preparación para los desafíos en la construcción mediante una formación en BIM del mas alto nivel, ya que contamos con un equipo de BIM Managers e instructores internacionales certificados de Autodesk impartiendo una enseñanza de primer nivel en BIM, lo cual garantiza un nivel de aprendizaje de las más altas esferas.</p>--}}
 {{--                            <p class="text-white d-none d-sm-block">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>--}}
