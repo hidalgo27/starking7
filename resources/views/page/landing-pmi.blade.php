@@ -107,9 +107,16 @@
         <div class="container">
             <div class="section-title mb45 headline text-center">
                 <span class="subtitle text-uppercase">STARKING7</span>
-                <h2><span>LEAN PROJECT MANAGEMENT</span></h2>
-                <p class="font-weight-bold text-white">En este Programa  Internacional nos destacamos por Impartir una formación del más alto nivel, aplicando las mejores técnicas y estrategias reconocidas y avaladas por el Project Management Institute, con el objetivo de lograr el éxito de los proyectos, integrados a escenarios y entornos de cambio que enfrentan las organizaciones en general. Asimismo, obtendrás una membresía oficial del PMI con importantes beneficios y una formación de elite para lograr una posterior certificación y reconocimiento a nivel global.</p>
-                <p class="font-weight-bold text-white">Un líder ejecutivo certificado en Project Management juega un rol determinante e incrementa sustancialmente las probabilidades de éxito en la gestión de empresas, gobiernos y organizaciones, en otras palabras… ¡el mundo ha logrado el avance, la innovación y el progreso gracias a los Project Managers!</p>
+                <h2><span>Lean-Ágile Project Management - PMI®</span></h2>
+                <p class="font-weight-bold text-white">En el actual entorno disruptivo en el que se desarrolla la dinámica empresarial, para liderar los proyectos hay que tener no solo la convicción, sino también la preparación para llevarlos a cabo. El Futuro está basado en proyectos, por lo tanto los proyectos son el futuro del empleo. </p>
+
+                <p class="font-weight-bold text-white">Nuestras carreras profesionales se han convertido en una secuencia de proyectos. A pesar de todo, actualmente hay un elevado porcentaje de proyectos que fracasan. Los motivos son dispares: falta de adaptación a los entornos actuales, desconocimiento de nuevas herramientas y metodologías y por qué no decirlo, falta de criterio para seleccionar y dirigir proyectos estratégicos. Por ello los directores de proyectos tenemos la oportunidad y la responsabilidad de cambiar esa tendencia. </p>
+                <p class="font-weight-bold text-white">Ahora en la gestión de proyectos prima la diversificación sobre la especialización. Por ello este curso se centra no solo en cuestiones técnicas sino también en las habilidades de liderazgo que se necesitan para dirigir equipos altamente competitivos. </p>
+                <p class="font-weight-bold text-white">La adaptabilidad de la organización es la creatividad e innovación enfocada a principios y entrega de valor, para lo que es imprescindible la correcta gestión de equipos, procesos y entorno. </p>
+
+                <p class="font-weight-bold text-white">Pasamos de un mundo dirigido por la eficiencia a uno dirigido por el cambio. Hay que animar a los profesionales a prepararse para conocer afondo y manejar eficientemente los conceptos clave en la dirección de proyectos. Necesitarán saber qué herramientas utilizar, desarrollar las competencias necesarias y gestionar adecuadamente las relaciones con los responsables de alto nivel de las organizaciones, para hacerles partícipes del proyecto. </p>
+               <p class="font-weight-bold text-white"> Ya no es cuestión de gestionar, sino de liderar proyectos para llevarlos al éxito. </p>
+                <span class="font-weight-bold h1 text-white">¿Aceptas el reto?</span>
             </div>
 
             <div class="faq-tab mb45">
