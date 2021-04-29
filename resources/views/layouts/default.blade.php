@@ -202,14 +202,14 @@
                                 <a href="#!">Formación Integral</a>
                                 <ul class="sub-menu">
                                     <li><a href="{{route('landingbim')}}">BIM en edificaciones</a></li>
-{{--                                    <li><a href="teacher-details.html">BIN para infraestructura</a></li>--}}
+                                    <li><a href="{{route('landingpmi')}}">Lean Agile Project Management</a></li>
                                 </ul>
                             </li>
                             <li><a href="/#cursos">Cursos</a></li>
                             <li><a href="/#certificacion-global">Certificación Global</a></li>
                             <li><a href="{{route('construccion')}}">Construcción y Bienes Raíces</a></li>
                             <li><a href="{{route('metodos_pagos')}}">Métodos de Pago</a></li>
-                            <li><a href="contact.html">Nosotros</a></li>
+                            <li><a href="{{route('about')}}">Nosotros</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -250,7 +250,7 @@
                 </div>
                 <ul id="collapse1" class="submenu collapse show" aria-labelledby="heading1" data-parent="#accordion" style="">
                     <li class="active"><a href="{{route('landingbim')}}">BIM en edificaciones</a></li>
-{{--                    <li><a href="service-details.html">BIM para infraestructura</a></li>--}}
+                    <li><a href="{{route('landingpmi')}}">Lean Agile Project Management</a></li>
                 </ul>
             </li>
             <!-- services - end -->
@@ -268,7 +268,7 @@
             </li>
 
             <li class="card">
-                <a class="menu-link" href="about.html">Nosotros</a>
+                <a class="menu-link" href="{{route('about')}}">Nosotros</a>
             </li>
 
         </ul>

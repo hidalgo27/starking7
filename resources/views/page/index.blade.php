@@ -90,14 +90,14 @@
                     </div>
                     <div class="section-title mb20 headline text-center ">
                         <div class="layer-1-3">
-                            <h2 class="third-slide h1 text-warning mb-sm-3"><span>BIM</span></h2>
-                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>
+                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>
+{{--                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>--}}
                         </div>
                     </div>
                     <div class="layer-1-4">
                         <div class="about-btn text-center">
                             <div class="genius-btn text-center text-uppercase ul-li-block bold-font">
-                                <a href="{{route('landingbim')}}">Ver más <i class="fas fa-caret-right"></i></a>
+                                <a href="{{route('landingpmi')}}">Ver más <i class="fas fa-caret-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,15 @@
                     <div class="section-title mb20 headline text-center ">
                         <span class="subtitle text-uppercase">FORMACIÓN INTEGRAL</span>
                         {{--                    <h2 class=""  ><span>Inventive</span> Solution <br> for <span>Education</span></h2>--}}
-                        <h2><span>BIM</span> Solución <br> para <span>Construccines</span></h2>
+                        <h2 class="text-warning"><span>BIM</span></h2>
+                        <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>
+                    </div>
+                    <div class="layer-1-4">
+                        <div class="about-btn text-center">
+                            <div class="genius-btn text-center text-uppercase ul-li-block bold-font">
+                                <a href="{{route('landingbim')}}">Ver más <i class="fas fa-caret-right"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,10 +173,26 @@
             <div id="course-slide-item" class="course-slide">
                 <div class="course-item-pic-text">
                     <div class="course-pic relative-position mb25">
-                        <img src="{{asset('img/course/c-a2.jpg')}}" alt="" class="w-100">
+                        <img src="{{asset('img/course/c-a3.jpg')}}" alt="" class="w-100 bw">
                         <div class="course-price text-center gradient-bg">
-                            <span>NUEVO</span>
+                            <span>Nuevo</span>
                         </div>
+                        <div class="course-details-btn">
+                            <a href="{{route('landingpmi')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="course-item-text">
+                        <div class="course-title mt10 headline pb45 relative-position">
+                            <h3><a href="{{route('landingpmi')}}">Lean Agile Project Management</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-item-pic-text">
+                    <div class="course-pic relative-position mb25">
+                        <img src="{{asset('img/course/c-a2.jpg')}}" alt="" class="w-100">
+{{--                        <div class="course-price text-center gradient-bg">--}}
+{{--                            <span>NUEVO</span>--}}
+{{--                        </div>--}}
                         <div class="course-details-btn">
                             <a href="{{route('landingbim')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
                         </div>
@@ -197,22 +221,7 @@
                 </div>
 
 
-                <div class="course-item-pic-text">
-                    <div class="course-pic relative-position mb25">
-                        <img src="{{asset('img/course/c-a3.jpg')}}" alt="" class="w-100 bw grey">
-                        <div class="course-price text-center gradient-bg">
-                            <span>Próximamente</span>
-                        </div>
-{{--                        <div class="course-details-btn">--}}
-{{--                            <a href="#">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>--}}
-{{--                        </div>--}}
-                    </div>
-                    <div class="course-item-text">
-                        <div class="course-title mt10 headline pb45 relative-position">
-                            <h3>Project management - PMI</h3>
-                        </div>
-                    </div>
-                </div>
+
                 <!-- /item -->
 
             {{--            <div class="course-item-pic-text">--}}

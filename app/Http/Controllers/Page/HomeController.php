@@ -37,6 +37,9 @@ class HomeController extends Controller
     public function metodos_pagos(){
         return view('page.metodos-pagos');
     }
+    public function about(){
+        return view('page.about');
+    }
 
     public function ubigeoPr(){
         $provincia = Provincia::all();

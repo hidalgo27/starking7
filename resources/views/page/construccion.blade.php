@@ -11,6 +11,26 @@
                 {{--                <p>Nuestros proyectos y construcciones destacan por su calidad y distinción, logrando edificaciones funcionalmente eficientes y estructuralmente seguras, ya que contamos con un equipo profesional especializado para cada especialidad con el objetivo de garantizar el confort y plena satisfacción de nuestros clientes.</p>--}}
             </div>
 
+
+            <div class="affiliate-market-guide mb65">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="course-item-pic-text">
+                            <div class="course-pic relative-position mb25">
+                                <a href=""><img src="{{asset('img/construccion-bienes/proyecto-huancaro/1.jpg')}}" alt="" class="w-100 bw"></a>
+                            </div>
+                            <div class="course-item-text">
+                                <div class="course-title mt10 headline pb45 relative-position">
+                                    <h3><a href="{{route('landingpmi')}}">Lean Agile Project Management</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
             <div class="affiliate-market-guide mb65">
 {{--                <div class="section-title-2 mb20 headline text-left">--}}
 {{--                    <h2><span>Affiliate Marketing</span> A Begginer's Guide</h2>--}}

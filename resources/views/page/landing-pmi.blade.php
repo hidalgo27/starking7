@@ -133,25 +133,26 @@
                             <div class="panel-body p-0">
                                 <ul>
                                     <li>
-                                        Membresía anual del Project Management Institute - PMI, por lo que podrás disfrutar de los siguientes beneficios como asociado del PMI:
+                                        Membresía anual del Project Management Institute - PMI®, por lo que podrás disfrutar de los siguientes beneficios como asociado del PMI®:
                                         <ul>
-                                            <li>Acceso al contenido oficial y a las plataformas PMI, herramientas,  bibliotecas descargables y en agosto podrás disponer de la nueva guía PMBOK Versión 7</li>
-                                            <li>PMBOK Versión 6 (Antes). Orientado a Procesos: ¿Cómo hago algo?  49 Procesos en 10 Áreas</li>
-                                            <li>PMBOK Versión 7 (Ahora). Orientado a Principios, más flexible : ¿Por qué hago algo? 12 Principios en 8 Dominios.</li>
+                                            <li>Acceso al contenido oficial y a las plataformas PMI®, herramientas,  bibliotecas descargables y en agosto podrás disponer de la nueva guía PMBOK Versión 7</li>
+                                            <li>PMBOK Versión 6. Orientado a Procesos: ¿Cómo hago algo?  49 Procesos en 10 Áreas</li>
+                                            <li>PMBOK Versión 7. Orientado a Principios, más flexible : ¿Por qué hago algo? 12 Principios en 8 Dominios.</li>
                                             <li>Motivos del cambio: adaptarse a tiempos actuales para seguir siendo la norma de referencia de PM</li>
                                             <li>No solo para ciclo de vida predictivo sino también ciclo de vida hibrido o iterativo (incremental/ágil).</li>
-                                            <li>Acceso a descuentos para los exámenes PMP, CAPM, ACP del PMI.</li>
+                                            <li>Acceso a descuentos para los exámenes PMP®, CAPM, ACP del PMI®.</li>
                                         </ul>
                                     </li>
-                                    <li>Preparación y capacitación para exámenes PMP de la más alta calidad. Instructora y Directora Master Project Management PMI-ACP, PMP  (España)</li>
-                                    <li>Curso preparatorio de 40 horas para ser reconocidos con 40 PDU (Unidades de Desarrollo Profesional) por el PMI, según los requisitos para al examen de certificación PMP del PMI.</li>
-                                    <li>Asesoría para la obtención del PMP, CAPM, ACP, PM Ready de acuerdo a tu perfil profesional.</li>
-                                    <li>Simulador de exámenes con estándares del PMI con más de 3000 preguntas</li>
+                                    <li>Preparación y capacitación para exámenes PMP® de la más alta calidad. Instructora y Directora Master Project Management PMI®-ACP, PMP®  (España)</li>
+                                    <li>Curso preparatorio de 40 horas aptas para ser reconocidos con 40 PDU (Unidades de Desarrollo Profesional) por el PMI®, según los requisitos para al examen de certificación PMP® del PMI®.</li>
+                                    <li>Asesoría para la obtención del PMP®, CAPM®, PM Ready® de acuerdo a tu perfil profesional.</li>
+                                    <li>Simulador de exámenes con estándares del PMI con más de 5000 preguntas</li>
+
                                     <li>
                                         Certificaciones:
                                         <ul>
-                                            <li>Certificado de Starking7 con 40 PDU reconocidos por el PMI y firma de Instructora PMI-ACP, PMP</li>
-                                            <li>Certificado Project Management Ready de validez internacional en nuestro Centro Autorizado de Pruebas Certiport + insignia digital (opcional)</li>
+                                            <li>Certificado de Starking7 con 40 PDU aptas para ser reconocidas por el PMI®, firmado y avalado por la Instructora PMI®-ACP, PMP®</li>
+                                            <li>Opcional - Certificado Project Management Ready de validez internacional en nuestro Centro Autorizado de Pruebas Certiport + insignia digital (Nueva certificación de nivel de entrada del PMI®)</li>
                                         </ul>
                                     </li>
                                     <li>Si no quieres certificarte porque con la  mejora del ejercicio profesional te basta, este curso también es para ti porque aumentará tu conocimiento y habilidades para la Gestión y dirección de proyectos.</li>
@@ -218,18 +219,19 @@
                         </div>
                         <div id="collapse5" class="collapse"  data-parent="#accordion">
                             <div class="panel-body p-0">
-                                <ul>
-                                    <li>Ampliar y diversificar las oportunidades laborales.</li>
-                                    <li>Saber escoger, utilizar y desarrollar herramientas y técnicas actuales de la dirección de proyectos (como marco teórico)</li>
-                                    <li>Aplicarlas de forma práctica en su entorno laboral (como marco práctico).</li>
-                                    <li>Aprender a gestionar los diferentes ciclos de vida de proyectos, según el enfoque de desarrollo requerido y de su adecuación acorde al sector industrial.</li>
-                                    <li>Dar a conocer las funciones que desempeña un director de proyectos en los entornos actuales tan cambiantes, y preparar al director de proyectos para ser un líder de proyectos, enfocado al nuevo entorno de trabajo marcado por las tecnologías disruptivas que están apareciendo y por un mundo enfocado a la economía de proyectos (#ProjectEconomy).</li>
-                                    <li>Que los profesionales sean capaces de ser parte del cambio en los modelos de negocio, que se involucren y que puedan mejorar la competitividad y productividad de las organizaciones.</li>
-                                    <li>Formar a los alumnos en las habilidades de liderazgo, que tanta relevancia tienen en la gestión actual y que será primordial a la hora de gestionar equipos competitivos, integrados, multidisciplinares y remotamente conectados.</li>
-                                    <li>Curso Preparatorio para el examen de certificación reconocida internacionalmente como profesional de la dirección de proyecto del Project Management Institute (PMI®-PMP) de 40 DPU.</li>
-                                </ul>
+{{--                                <ul>¿Hacia quienes va dirijido el Programa?--}}
+
+{{--                                    <li>Ampliar y diversificar las oportunidades laborales.</li>--}}
+{{--                                    <li>Saber escoger, utilizar y desarrollar herramientas y técnicas actuales de la dirección de proyectos (como marco teórico)</li>--}}
+{{--                                    <li>Aplicarlas de forma práctica en su entorno laboral (como marco práctico).</li>--}}
+{{--                                    <li>Aprender a gestionar los diferentes ciclos de vida de proyectos, según el enfoque de desarrollo requerido y de su adecuación acorde al sector industrial.</li>--}}
+{{--                                    <li>Dar a conocer las funciones que desempeña un director de proyectos en los entornos actuales tan cambiantes, y preparar al director de proyectos para ser un líder de proyectos, enfocado al nuevo entorno de trabajo marcado por las tecnologías disruptivas que están apareciendo y por un mundo enfocado a la economía de proyectos (#ProjectEconomy).</li>--}}
+{{--                                    <li>Que los profesionales sean capaces de ser parte del cambio en los modelos de negocio, que se involucren y que puedan mejorar la competitividad y productividad de las organizaciones.</li>--}}
+{{--                                    <li>Formar a los alumnos en las habilidades de liderazgo, que tanta relevancia tienen en la gestión actual y que será primordial a la hora de gestionar equipos competitivos, integrados, multidisciplinares y remotamente conectados.</li>--}}
+{{--                                    <li>Curso Preparatorio para el examen de certificación reconocida internacionalmente como profesional de la dirección de proyecto del Project Management Institute (PMI®-PMP) de 40 DPU.</li>--}}
+{{--                                </ul>--}}
+                                <img src="{{asset('img/banner/obj.png')}}" alt="" class="w-100">
                             </div>
-                            <img src="{{asset('img/banner/ob.png')}}" alt="" class="w-100">
                         </div>
                     </div>
                 </div>
@@ -342,14 +344,13 @@
                             </div>
                             <div id="collapseA" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Membresía y Navegación por plataforma PMI</li>
-                                        <li>Identificar conceptos y terminología básica del plan de gestión de proyecto</li>
-                                        <li>Determinar las funciones de los proyectos y responsabilidades</li>
-                                        <li>Identificar herramientas y sistemas utilizados para la dirección de proyecto</li>
-                                        <li>Identificar la solución de problemas comunes. Herramientas y técnicas</li>
-
-                                    </ol>
+                                    <ul>
+                                        <li>1.1. Membresía y Navegación por plataforma PMI</li>
+                                        <li>1.2. Identificar conceptos y terminología básica del plan de gestión de proyecto</li>
+                                        <li>1.3. Determinar las funciones de los proyectos y responsabilidades</li>
+                                        <li>1.4. Identificar herramientas y sistemas utilizados para la dirección de proyecto</li>
+                                        <li>1.5. Identificar la solución de problemas comunes. Herramientas y técnicas</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -366,12 +367,12 @@
                             </div>
                             <div id="collapseB" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Identificar los atributos y cualidades de los interesados. Comunicación</li>
-                                        <li>Identificar los atributos (cualidades y propiedades) relacionados con recogida de requisitos.</li>
-                                        <li>Identificar la hoja de ruta del producto</li>
-                                        <li>Identificar los componentes de la entrega de producto</li>
-                                    </ol>
+                                    <ul>
+                                        <li>2.1. Identificar los atributos y cualidades de los interesados. Comunicación</li>
+                                        <li>2.2. Identificar los atributos (cualidades y propiedades) relacionados con recogida de requisitos.</li>
+                                        <li>2.3. Identificar la hoja de ruta del producto</li>
+                                        <li>2.4. Identificar los componentes de la entrega de producto</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -388,12 +389,12 @@
                             </div>
                             <div id="collapseC" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Planificación en cascada. Gestión de un proyecto tradicional.</li>
-                                        <li>El entorno en el que operan los proyectos, el rol del director del proyecto.</li>
-                                        <li>Gestión de las áreas de conocimiento: Integración, Alcance, Cronograma, Coste, Calidad, Recursos, Comunicación, Riesgo, Adquisiciones e Interesados.</li>
-                                        <li>Código ético.</li>
-                                    </ol>
+                                    <ul>
+                                        <li>3.1. Planificación en cascada. Gestión de un proyecto tradicional.</li>
+                                        <li>3.2. El entorno en el que operan los proyectos, el rol del director del proyecto.</li>
+                                        <li>3.3. Gestión de las áreas de conocimiento: Integración, Alcance, Cronograma, Coste, Calidad, Recursos, Comunicación, Riesgo, Adquisiciones e Interesados.</li>
+                                        <li>3.4. Código ético.</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -410,12 +411,12 @@
                             </div>
                             <div id="collapseD" class="collapse" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Planificación iterativa /Estrategia, Portafolio, Programa, Proyecto, Producto, Entrega, Iteración y Día.</li>
-                                        <li>Identificar roles ágiles y responsabilidades</li>
-                                        <li>Escalado ágil y principales métodos de agilidad empresarial (Lean, LESS, SAFE, Scrum de scrum, Disciplina Agile, Cristal… )</li>
-                                        <li>Métodos, Herramientas y Técnicas de Equipos (Kanban, Scrum, XP, DSDM, FDD…)</li>
-                                    </ol>
+                                    <ul>
+                                        <li>4.1. Planificación iterativa /Estrategia, Portafolio, Programa, Proyecto, Producto, Entrega, Iteración y Día.</li>
+                                        <li>4.2. Identificar roles ágiles y responsabilidades</li>
+                                        <li>4.3. Escalado ágil y principales métodos de agilidad empresarial (Lean, LESS, SAFE, Scrum de scrum, Disciplina Agile, Cristal… )</li>
+                                        <li>4.4. Métodos, Herramientas y Técnicas de Equipos (Kanban, Scrum, XP, DSDM, FDD…)</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -432,22 +433,22 @@
                             </div>
                             <div id="collapseE" class="collapse" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Gestionar conflictos</li>
-                                        <li>Liderar un equipo</li>
-                                        <li>Apoyar el desempeño del equipo</li>
-                                        <li>Empoderar a los miembros del equipo y a los interesados</li>
-                                        <li>Asegurarse de que los miembros del equipo y los interesados reciban la capacitación decuada</li>
-                                        <li>Crear un equipo</li>
-                                        <li>Abordar y eliminar los impedimentos, obstáculos y bloqueadores para el equipo</li>
-                                        <li>Negociar acuerdos de proyectos.</li>
-                                        <li>Colaborar con interesados</li>
-                                        <li>Generar un entendimiento compartido</li>
-                                        <li>Comprometer y apoyar a los equipos virtuales</li>
-                                        <li>Definir las reglas básicas del equipo</li>
-                                        <li>Orientar a los interesados pertinentes</li>
-                                        <li>Promover el desempeño del equipo a través de la aplicación de inteligencia emocional</li>
-                                    </ol>
+                                    <ul>
+                                        <li>5.1. Gestionar conflictos</li>
+                                        <li>5.2. Liderar un equipo</li>
+                                        <li>5.3. Apoyar el desempeño del equipo</li>
+                                        <li>5.4. Empoderar a los miembros del equipo y a los interesados</li>
+                                        <li>5.5. Asegurarse de que los miembros del equipo y los interesados reciban la capacitación decuada</li>
+                                        <li>5.6. Crear un equipo</li>
+                                        <li>5.7. Abordar y eliminar los impedimentos, obstáculos y bloqueadores para el equipo</li>
+                                        <li>5.8. Negociar acuerdos de proyectos.</li>
+                                        <li>5.9. Colaborar con interesados</li>
+                                        <li>5.10. Generar un entendimiento compartido</li>
+                                        <li>5.11. Comprometer y apoyar a los equipos virtuales</li>
+                                        <li>5.12. Definir las reglas básicas del equipo</li>
+                                        <li>5.13. Orientar a los interesados pertinentes</li>
+                                        <li>5.14. Promover el desempeño del equipo a través de la aplicación de inteligencia emocional</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -464,25 +465,25 @@
                             </div>
                             <div id="collapseG" class="collapse" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Ejecutar un proyecto con la urgencia necesaria para entregar valor de negocio</li>
-                                        <li>Gestionar las comunicaciones</li>
-                                        <li>Evaluar y gestionar los riesgos</li>
-                                        <li>Comprometer a los interesados</li>
-                                        <li>Planificar y gestionar el presupuesto y los recursos</li>
-                                        <li>Planificar y gestionar el cronograma</li>
-                                        <li>Planificar y gestionar la calidad de productos y entregables</li>
-                                        <li>Planificar y gestionar el alcance</li>
-                                        <li>Integrar actividades de planificación del proyecto</li>
-                                        <li>Gestionar cambios del proyecto</li>
-                                        <li>Planificar y gestionar adquisiciones</li>
-                                        <li>Gestionar artefactos del proyecto</li>
-                                        <li>Determinar la metodología/métodos y prácticas adecuadas para el proyecto</li>
-                                        <li>Establecer la estructura de gobernanza del proyecto</li>
-                                        <li>Gestionar problemas del proyecto</li>
-                                        <li>Garantizar la transferencia de conocimientos para la continuidad de proyectos</li>
-                                        <li>Planificar y gestionar el cierre o la transición de proyectos/fases</li>
-                                    </ol>
+                                    <ul>
+                                        <li>6.1. Ejecutar un proyecto con la urgencia necesaria para entregar valor de negocio</li>
+                                        <li>6.2. Gestionar las comunicaciones</li>
+                                        <li>6.3. Evaluar y gestionar los riesgos</li>
+                                        <li>6.4. Comprometer a los interesados</li>
+                                        <li>6.5. Planificar y gestionar el presupuesto y los recursos</li>
+                                        <li>6.6. Planificar y gestionar el cronograma</li>
+                                        <li>6.7. Planificar y gestionar la calidad de productos y entregables</li>
+                                        <li>6.8. Planificar y gestionar el alcance</li>
+                                        <li>6.9. Integrar actividades de planificación del proyecto</li>
+                                        <li>6.10. Gestionar cambios del proyecto</li>
+                                        <li>6.11. Planificar y gestionar adquisiciones</li>
+                                        <li>6.12. Gestionar artefactos del proyecto</li>
+                                        <li>6.13. Determinar la metodología/métodos y prácticas adecuadas para el proyecto</li>
+                                        <li>6.14. Establecer la estructura de gobernanza del proyecto</li>
+                                        <li>6.15. Gestionar problemas del proyecto</li>
+                                        <li>6.16. Garantizar la transferencia de conocimientos para la continuidad de proyectos</li>
+                                        <li>6.17. Planificar y gestionar el cierre o la transición de proyectos/fases</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -499,12 +500,12 @@
                             </div>
                             <div id="collapsef" class="collapse" data-parent="#accordion">
                                 <div class="panel-body p-0">
-                                    <ol>
-                                        <li>Planificar y gestionar el cumplimiento de proyectos</li>
-                                        <li>Evaluar y entregar los beneficios y el valor de los proyectos</li>
-                                        <li>Evaluar y abordar cambios en el entorno empresarial extern respecto al impacto en el alcance</li>
-                                        <li>Apoyar el cambio organizacional</li>
-                                    </ol>
+                                    <ul>
+                                        <li>7.1. Planificar y gestionar el cumplimiento de proyectos</li>
+                                        <li>7.2. Evaluar y entregar los beneficios y el valor de los proyectos</li>
+                                        <li>7.3. Evaluar y abordar cambios en el entorno empresarial extern respecto al impacto en el alcance</li>
+                                        <li>7.4. Apoyar el cambio organizacional</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -783,10 +784,10 @@
 
                                         </div>
                                     </div>
-                                    <div class="card-footer font-weight-bold">
-                                        <p class="m-0 text-warning h4">
-                                            COSTO: US$ 120
-                                            (33% DE DESCUENTO POR LLEVAR EL PROGRAMA - PRECIO REGULAR US$ 180)
+                                    <div class="card-footer">
+                                        <p>(33% DE DESCUENTO POR LLEVAR EL PROGRAMA - PRECIO REGULAR <del>US$ 180)</del></p>
+                                        <p class="m-0 text-warning h4 font-weight-bold">
+                                            Costo: US$ 120
                                         </p>
                                     </div>
                                 </div>

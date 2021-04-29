@@ -27,6 +27,7 @@ Route::get('/landing-bim', [HomeController::class, 'landingbim'])->name('landing
 Route::get('/landing-pmi', [HomeController::class, 'landingpmi'])->name('landingpmi');
 Route::get('/construccion', [HomeController::class, 'construccion'])->name('construccion');
 Route::get('/metodos-de-pagos', [HomeController::class, 'metodos_pagos'])->name('metodos_pagos');
+Route::get('/sobre-nosotros', [HomeController::class, 'about'])->name('about');
 
 Route::get('/ubigeoDe', [HomeController::class, 'ubigeoDe'])->name('ubigeode');
 Route::get('/ubigeoPr', [HomeController::class, 'ubigeoPr'])->name('ubigeopr');
