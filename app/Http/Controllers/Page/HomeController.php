@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use App\Models\Departamento;
 use App\Models\Distrito;
 use App\Models\LandingBim;
+use App\Models\Portafolio;
+use App\Models\PortafolioImagen;
 use App\Models\Provincia;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -26,7 +28,13 @@ class HomeController extends Controller
         return view('page.landing-pmi');
     }
     public function construccion(){
-        return view('page.construccion');
+        $portafolio = Portafolio::all();
+        return view('page.construccion', compact('portafolio'));
+    }
+    public function construccion_detail(Request $request){
+        $por_img = PortafolioImagen::all();
+        $portafolio = Portafolio::where('id', $request->id)->get();
+        return view('page.construccion-img', compact('portafolio', 'por_img'));
     }
     public function ubigeoDe(){
         $departamento = Departamento::with('provincia.distrito')->get();
