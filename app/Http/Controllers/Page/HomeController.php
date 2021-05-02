@@ -9,6 +9,7 @@ use App\Models\LandingBim;
 use App\Models\Portafolio;
 use App\Models\PortafolioImagen;
 use App\Models\Provincia;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -71,6 +72,7 @@ class HomeController extends Controller
         $departamento = $request->form_data['departamento'];
         $provincia = $request->form_data['provincia'];
         $distrito = $request->form_data['distrito'];
+        $estado = $request->form_data['estado'];
 
         $landing = new LandingBim();
         $landing->nombre = $nombre;
@@ -79,7 +81,7 @@ class HomeController extends Controller
         $landing->departamento = $departamento;
         $landing->provincia = $provincia;
         $landing->distrito = $distrito;
-        $landing->estado = 1;
+        $landing->estado = $estado;
         $landing->save();
 
         try {
@@ -90,24 +92,43 @@ class HomeController extends Controller
                     ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
             });
 
-//            Mail::send(['html' => 'notifications.admin'], [
-//                'phone' => $celular,
-//                'email' => $email,
-//                'name' => $nombre,
-//                'departamento' => $departamento,
-//                'provincia' => $provincia,
-//                'distrito' => $distrito
-//            ], function ($messaje) use ($from) {
-//                $messaje->to($from, 'STARKING7 | BIM EN EDIFICACIONES')
-//                    ->subject('STARKING7 | BIM EN EDIFICACIONES')
-////                    ->cc($from2, 'GotoPeru')
-//                    /*->attach('ruta')*/
-//                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
-//            });
+            return "ok";
+        }
+        catch (Exception $e){
+            return $e;
+        }
 
+
+    }
+
+    public function pmi_register_landing(Request $request){
+//        $from = 'hidalgochponce@gmail.com';
+        $nombre = $request->form_data['nombre'];
+        $celular = $request->form_data['celular'];
+        $email = $request->form_data['email'];
+        $departamento = $request->form_data['departamento'];
+        $provincia = $request->form_data['provincia'];
+        $distrito = $request->form_data['distrito'];
+
+        $landing = new LandingBim();
+        $landing->nombre = $nombre;
+        $landing->email = $email;
+        $landing->telefono = $celular;
+        $landing->departamento = $departamento;
+        $landing->provincia = $provincia;
+        $landing->distrito = $distrito;
+        $landing->estado = 2;
+        $landing->save();
+
+        try {
+            Mail::send(['html' => 'notifications.page'], ['name' => $nombre], function ($messaje) use ($email, $nombre) {
+                $messaje->to($email, $nombre)
+                    ->subject('STARKING7 | PMI')
+                    /*->attach('ruta')*/
+                    ->from('gerenciatic@starking7.com', 'STARKING7 | PMI');
+            });
 
             return "ok";
-
         }
         catch (Exception $e){
             return $e;

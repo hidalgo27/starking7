@@ -54,10 +54,17 @@ class UserController extends Controller
     }
 
     public function landing(){
-        $landing = LandingBim::all();
+        $landing = LandingBim::where('estado', '1')->get();
         $departamento = Departamento::all();
         $provincia = Provincia::all();
         $distrito = Distrito::all();
         return view('admin.landing.landing-bim', compact('landing', 'departamento', 'provincia', 'distrito'));
+    }
+    public function landingpmi(){
+        $landing = LandingBim::where('estado', '2')->get();
+        $departamento = Departamento::all();
+        $provincia = Provincia::all();
+        $distrito = Distrito::all();
+        return view('admin.landing.landing-pmi', compact('landing', 'departamento', 'provincia', 'distrito'));
     }
 }

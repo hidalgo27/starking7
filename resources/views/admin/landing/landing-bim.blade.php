@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Orion')
+@section('title', 'Landing BIM')
 
 @section('content_header')
     <h1>LISTA LANDING BIM</h1>

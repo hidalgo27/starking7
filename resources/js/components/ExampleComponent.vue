@@ -65,7 +65,8 @@
 import { ref, computed, toRefs, reactive } from "vue";
 import axios from "axios";
     export default {
-        setup(){
+        props: ['estado'],
+        setup(props){
             const nombre = ref([]);
             const celular = ref([]);
             const email = ref([]);
@@ -116,6 +117,7 @@ import axios from "axios";
                         departamento: departamento_model.value,
                         provincia: provincia_model.value,
                         distrito: distrito_model.value,
+                        estado: props.estado
                     };
                     axios.post('/bim-register-landing', {form_data: form })
                         .then(function(response) {

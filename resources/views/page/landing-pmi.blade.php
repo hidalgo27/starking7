@@ -46,7 +46,7 @@
                                 </li>
                             </ul>
                         </div>
-{{--                        <a href="#inscripciones" class="btn btn-warning text-white font-weight-bold">Pre inscripciones aquí</a>--}}
+                        <a href="#inscripciones" class="btn btn-warning text-white font-weight-bold">Inscripciones aquí</a>
                     </div>
 
 
@@ -950,7 +950,7 @@
                                 <h3 class="bold-font"><span>Registro</span> Gratuito.</h3>
                                 <p>Pre inscripciones para el curso PMI</p>
                             </div>
-                            <example-component></example-component>
+                            <example-component :estado="2"></example-component>
                         </div>
                     </div>
                     <div class="bg-mockup">

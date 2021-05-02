@@ -1229,7 +1229,7 @@
                                 <h3 class="bold-font"><span>Registro</span> Gratuito.</h3>
                                 <p>Pre inscripciones para el curso BIM</p>
                             </div>
-                            <example-component></example-component>
+                            <example-component :estado="2"></example-component>
                         </div>
                     </div>
                     <div class="bg-mockup">

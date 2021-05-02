@@ -15,4 +15,5 @@ Route::resource('users', UserController::class)->only('index','edit','update')->
 Route::resource('users', UserController::class)->only('index','edit','update')->names('users');
 
 Route::get('landing-bim', [UserController::class, 'landing'])->name('landing-bim');
+Route::get('landing-pmi', [UserController::class, 'landingpmi'])->name('landing-pmi');
 

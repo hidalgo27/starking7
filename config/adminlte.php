@@ -267,10 +267,17 @@ return [
 ////            'label'       => 4,
 ////            'label_color' => 'success',
 //        ],
-        ['header' => 'LANDING BIM'],
+        ['header' => 'LANDING'],
         [
-            'text' => 'list',
+            'text' => 'List BIM',
             'route'         => 'admin.landing-bim',
+//            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-list',
+
+        ],
+        [
+            'text' => ' List PMI',
+            'route'         => 'admin.landing-pmi',
 //            'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-list',
 
