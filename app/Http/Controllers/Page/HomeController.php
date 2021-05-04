@@ -87,9 +87,9 @@ class HomeController extends Controller
         try {
             Mail::send(['html' => 'notifications.page'], ['name' => $nombre], function ($messaje) use ($email, $nombre) {
                 $messaje->to($email, $nombre)
-                    ->subject('STARKING7 | BIM EN EDIFICACIONES')
+                    ->subject('STARKING7')
                     /*->attach('ruta')*/
-                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+                    ->from('gerenciatic@starking7.com', 'STARKING7');
             });
 
             return "ok";
@@ -123,9 +123,9 @@ class HomeController extends Controller
         try {
             Mail::send(['html' => 'notifications.page'], ['name' => $nombre], function ($messaje) use ($email, $nombre) {
                 $messaje->to($email, $nombre)
-                    ->subject('STARKING7 | PMI')
+                    ->subject('STARKING7')
                     /*->attach('ruta')*/
-                    ->from('gerenciatic@starking7.com', 'STARKING7 | PMI');
+                    ->from('gerenciatic@starking7.com', 'STARKING7');
             });
 
             return "ok";
@@ -146,8 +146,8 @@ class HomeController extends Controller
         try {
             Mail::send(['html' => 'notifications.page'], ['name' => $name], function ($messaje) use ($email, $name) {
                 $messaje->to($email, $name)
-                    ->subject('STARKING7 | BIM EN EDIFICACIONES')
-                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+                    ->subject('STARKING7')
+                    ->from('gerenciatic@starking7.com', 'STARKING7');
             });
 
             Mail::send(['html' => 'notifications.admin'], [
@@ -155,9 +155,9 @@ class HomeController extends Controller
                 'name' => $name,
                 'messages' => $mensaje
             ], function ($messaje) use ($from) {
-                $messaje->to($from, 'STARKING7 | BIM EN EDIFICACIONES')
-                    ->subject('STARKING7 | BIM EN EDIFICACIONES')
-                    ->from('gerenciatic@starking7.com', 'STARKING7 | BIM EN EDIFICACIONES');
+                $messaje->to($from, 'STARKING7')
+                    ->subject('STARKING7')
+                    ->from('gerenciatic@starking7.com', 'STARKING7');
             });
 
 
