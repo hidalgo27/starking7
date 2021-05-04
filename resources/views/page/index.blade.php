@@ -63,7 +63,7 @@
                 <div class="slider-text">
                     <div class="layer-1-2">
                         <div class="coming-countdown ul-li">
-                            <h4 class="text-warning pb-4 d-block font-weight-bold">INICO DE CLASES 27 DE ABRIL <br> SEPARA TU VACANTE</h4>
+                            <h4 class="text-warning pb-4 d-block font-weight-bold">INICO DE CLASES 15 DE MAYO <br> SEPARA TU VACANTE</h4>
                             <ul>
                                 <li class="days">
                                     <span class="number"></span>
@@ -91,6 +91,7 @@
                     <div class="section-title mb20 headline text-center ">
                         <div class="layer-1-3">
                             <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>
+                            <h1 class="d-md-none third-slide font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>
 {{--                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>--}}
                         </div>
                     </div>
