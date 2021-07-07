@@ -1099,7 +1099,7 @@ button.alt-menu-btn.float-left {
 
 #slider-item .owl-nav {
   position: absolute;
-  top: 50%;
+  top: 40%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
