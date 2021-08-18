@@ -478,220 +478,221 @@
 
     <!-- Start FAQ section
         ============================================= -->
-    <section id="faq" class="faq-section faq-secound-home-version backgroud-style">
-        <div class="container">
-            <div class="section-title mb45 headline text-center">
-                <span class="subtitle text-uppercase">STARKING7</span>
-                <h2>Preguntas<span> Frecuentes</span></h2>
-            </div>
+{{--    <section id="faq" class="faq-section faq-secound-home-version backgroud-style">--}}
+{{--        <div class="container">--}}
+{{--            <div class="section-title mb45 headline text-center">--}}
+{{--                <span class="subtitle text-uppercase">STARKING7</span>--}}
+{{--                <h2>Preguntas<span> Frecuentes</span></h2>--}}
+{{--            </div>--}}
 
-            <div class="faq-tab mb45">
-                <div class="faq-tab-ques  ul-li">
-                    <div class="tab-button text-center mb45">
-                        <ul class="product-tab">
-                            <li class="active" rel="tab1">GENERAL </li>
-                            <li rel="tab4">  EVENTOS  </li>
-                        </ul>
-                    </div>
-                    <!-- /tab-head -->
+{{--            <div class="faq-tab mb45">--}}
+{{--                <div class="faq-tab-ques  ul-li">--}}
+{{--                    <div class="tab-button text-center mb45">--}}
+{{--                        <ul class="product-tab">--}}
+{{--                            <li class="active" rel="tab1">GENERAL </li>--}}
+{{--                            <li rel="tab4">  EVENTOS  </li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                    <!-- /tab-head -->--}}
 
-                    <!-- tab content -->
-                    <div class="tab-container">
+{{--                    <!-- tab content -->--}}
+{{--                    <div class="tab-container">--}}
 
-                        <!-- 1st tab -->
-                        <div id="tab1" class="tab-content-1 pt35">
-                            <div id="accordion" class="panel-group">
-                                <div class="panel">
-                                    <div class="panel-title" id="headingOne">
-                                        <h3 class="mb-0">
-                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                How to Register or Make An Account in Genius?
-                                            </button>
-                                        </h3>
-                                    </div>
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel">
-                                    <div class="panel-title" id="headingTwo">
-                                        <h3 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                What is Genius Courses?
-                                            </button>
-                                        </h3>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel">
-                                    <div class="panel-title" id="headingThree">
-                                        <h3 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                What Lorem Ipsum Dolor Sit Amet Consectuerer?
-                                            </button>
-                                        </h3>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel">
-                                    <div class="panel-title" id="headingFoure">
-                                        <h3 class="mb-0">
-                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">
-                                                Adipiscing Diamet Nonnumy Nibh Euismod?
-                                            </button>
-                                        </h3>
-                                    </div>
-                                    <div id="collapseFoure" class="collapse"  data-parent="#accordion">
-                                        <div class="panel-body">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end of #accordion -->
+{{--                        <!-- 1st tab -->--}}
+{{--                        <div id="tab1" class="tab-content-1 pt35">--}}
+{{--                            <div id="accordion" class="panel-group">--}}
+{{--                                <div class="panel">--}}
+{{--                                    <div class="panel-title" id="headingOne">--}}
+{{--                                        <h3 class="mb-0">--}}
+{{--                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">--}}
+{{--                                                How to Register or Make An Account in Genius?--}}
+{{--                                            </button>--}}
+{{--                                        </h3>--}}
+{{--                                    </div>--}}
+{{--                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">--}}
+{{--                                        <div class="panel-body">--}}
+{{--                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="panel">--}}
+{{--                                    <div class="panel-title" id="headingTwo">--}}
+{{--                                        <h3 class="mb-0">--}}
+{{--                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">--}}
+{{--                                                What is Genius Courses?--}}
+{{--                                            </button>--}}
+{{--                                        </h3>--}}
+{{--                                    </div>--}}
+{{--                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">--}}
+{{--                                        <div class="panel-body">--}}
+{{--                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="panel">--}}
+{{--                                    <div class="panel-title" id="headingThree">--}}
+{{--                                        <h3 class="mb-0">--}}
+{{--                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">--}}
+{{--                                                What Lorem Ipsum Dolor Sit Amet Consectuerer?--}}
+{{--                                            </button>--}}
+{{--                                        </h3>--}}
+{{--                                    </div>--}}
+{{--                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">--}}
+{{--                                        <div class="panel-body">--}}
+{{--                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <div class="panel">--}}
+{{--                                    <div class="panel-title" id="headingFoure">--}}
+{{--                                        <h3 class="mb-0">--}}
+{{--                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFoure" aria-expanded="false" aria-controls="collapseFoure">--}}
+{{--                                                Adipiscing Diamet Nonnumy Nibh Euismod?--}}
+{{--                                            </button>--}}
+{{--                                        </h3>--}}
+{{--                                    </div>--}}
+{{--                                    <div id="collapseFoure" class="collapse"  data-parent="#accordion">--}}
+{{--                                        <div class="panel-body">--}}
+{{--                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <!-- end of #accordion -->--}}
 
-                        </div>
-                        <!-- #tab1 -->
+{{--                        </div>--}}
+{{--                        <!-- #tab1 -->--}}
 
-                        <div id="tab4" class="tab-content-1 pt35">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> What is Genius Courses?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
+{{--                        <div id="tab4" class="tab-content-1 pt35">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="col-md-6">--}}
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> What is Genius Courses?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
 
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> What Lorem Ipsum Dolor Sit Amet Consectuerer?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
-                                </div>
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> What Lorem Ipsum Dolor Sit Amet Consectuerer?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-6">
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> How to Register or Make An Account in Genius?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
+{{--                                <div class="col-md-6">--}}
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> How to Register or Make An Account in Genius?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
 
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> Adipiscing Diamet Nonnumy Nibh Euismod?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- #tab3 -->
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> Adipiscing Diamet Nonnumy Nibh Euismod?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- #tab3 -->--}}
 
-                        <div id="tab5" class="tab-content-1 pt35">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> What is Genius Courses?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
+{{--                        <div id="tab5" class="tab-content-1 pt35">--}}
+{{--                            <div class="row">--}}
+{{--                                <div class="col-md-6">--}}
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> What is Genius Courses?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
 
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> What Lorem Ipsum Dolor Sit Amet Consectuerer?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
-                                </div>
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> What Lorem Ipsum Dolor Sit Amet Consectuerer?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
 
-                                <div class="col-md-6">
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> How to Register or Make An Account in Genius?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
+{{--                                <div class="col-md-6">--}}
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> How to Register or Make An Account in Genius?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
 
-                                    <div class="ques-ans mb45 headline">
-                                        <h3> Adipiscing Diamet Nonnumy Nibh Euismod?</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- #tab3 -->
-                    </div>
-                </div>
-            </div>
+{{--                                    <div class="ques-ans mb45 headline">--}}
+{{--                                        <h3> Adipiscing Diamet Nonnumy Nibh Euismod?</h3>--}}
+{{--                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam.</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- #tab3 -->--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="about-btn text-center">
-                {{--            <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">--}}
-                {{--                <a href="#">Make Question <i class="fas fa-caret-right"></i></a>--}}
-                {{--            </div>--}}
-                <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">
-                    <a href="#">Contacto <i class="fas fa-caret-right"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--            <div class="about-btn text-center">--}}
+{{--                --}}{{--            <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">--}}
+{{--                --}}{{--                <a href="#">Make Question <i class="fas fa-caret-right"></i></a>--}}
+{{--                --}}{{--            </div>--}}
+{{--                <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">--}}
+{{--                    <a href="#">Contacto <i class="fas fa-caret-right"></i></a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!-- End FAQ section
         ============================================= -->
 
     <!-- Start secound teacher section
         ============================================= -->
-    <section id="teacher-2" class="secound-teacher-section">
-        <div class="container">
-            <div class="section-title mb35 headline text-left">
-                <span class="subtitle ml42  text-uppercase">FAMILIA STARKING7</span>
-                <h2>Starking7 <span>Docentes.</span></h2>
-            </div>
-            <div class="teacher-secound-slide">
-                <div class="teacher-img-text relative-position text-center">
-                    <div class="teacher-img-social relative-position">
-                        <img src="/img/teacher/tb-1.png" alt="">
-                    </div>
-                    <div class="teacher-name-designation mt15">
-                        <span class="teacher-name">Daniel Alvares</span>
-                        <span class="teacher-designation">BIM</span>
-                    </div>
-                </div>
+{{--    <section id="teacher-2" class="secound-teacher-section">--}}
+{{--        <div class="container">--}}
+{{--            <div class="section-title mb35 headline text-left">--}}
+{{--                <span class="subtitle ml42  text-uppercase">FAMILIA STARKING7</span>--}}
+{{--                <h2>Starking7 <span>Docentes.</span></h2>--}}
+{{--            </div>--}}
+{{--            <div class="teacher-secound-slide">--}}
+{{--                <div class="teacher-img-text relative-position text-center">--}}
+{{--                    <div class="teacher-img-social relative-position">--}}
+{{--                        <img src="/img/teacher/tb-1.png" alt="">--}}
+{{--                    </div>--}}
+{{--                    <div class="teacher-name-designation mt15">--}}
+{{--                        <span class="teacher-name">Daniel Alvares</span>--}}
+{{--                        <span class="teacher-designation">BIM</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="teacher-img-text relative-position text-center">
-                    <div class="teacher-img-social relative-position">
-                        <img src="/img/teacher/tb-1.png" alt="">
-                    </div>
-                    <div class="teacher-name-designation mt15">
-                        <span class="teacher-name">Daniel Alvares</span>
-                        <span class="teacher-designation">BIM</span>
-                    </div>
-                </div>
+{{--                <div class="teacher-img-text relative-position text-center">--}}
+{{--                    <div class="teacher-img-social relative-position">--}}
+{{--                        <img src="/img/teacher/tb-1.png" alt="">--}}
+{{--                    </div>--}}
+{{--                    <div class="teacher-name-designation mt15">--}}
+{{--                        <span class="teacher-name">Daniel Alvares</span>--}}
+{{--                        <span class="teacher-designation">BIM</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="teacher-img-text relative-position text-center">
-                    <div class="teacher-img-social relative-position">
-                        <img src="/img/teacher/tb-1.png" alt="">
-                    </div>
-                    <div class="teacher-name-designation mt15">
-                        <span class="teacher-name">Daniel Alvares</span>
-                        <span class="teacher-designation">BIM</span>
-                    </div>
-                </div>
+{{--                <div class="teacher-img-text relative-position text-center">--}}
+{{--                    <div class="teacher-img-social relative-position">--}}
+{{--                        <img src="/img/teacher/tb-1.png" alt="">--}}
+{{--                    </div>--}}
+{{--                    <div class="teacher-name-designation mt15">--}}
+{{--                        <span class="teacher-name">Daniel Alvares</span>--}}
+{{--                        <span class="teacher-designation">BIM</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-                <div class="teacher-img-text relative-position text-center">
-                    <div class="teacher-img-social relative-position">
-                        <img src="/img/teacher/tb-1.png" alt="">
-                    </div>
-                    <div class="teacher-name-designation mt15">
-                        <span class="teacher-name">Daniel Alvares</span>
-                        <span class="teacher-designation">BIM</span>
-                    </div>
-                </div>
-            </div>
+{{--                <div class="teacher-img-text relative-position text-center">--}}
+{{--                    <div class="teacher-img-social relative-position">--}}
+{{--                        <img src="/img/teacher/tb-1.png" alt="">--}}
+{{--                    </div>--}}
+{{--                    <div class="teacher-name-designation mt15">--}}
+{{--                        <span class="teacher-name">Daniel Alvares</span>--}}
+{{--                        <span class="teacher-designation">BIM</span>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            {{--        <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">--}}
-            {{--            <a href="#">All teacher <i class="fas fa-caret-right"></i></a>--}}
-            {{--        </div>--}}
-        </div>
-    </section>
+{{--            --}}{{--        <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">--}}
+{{--            --}}{{--            <a href="#">All teacher <i class="fas fa-caret-right"></i></a>--}}
+{{--            --}}{{--        </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!-- End teacher section
         ============================================= -->
+    
 @endsection

@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Hamcrest\Thingy;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -61,4 +62,34 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    //Relacion uno a uno
+    public function profile() {
+        return $this->hasOne(Profile::class);
+    }
+
+    //Relacion uno a muchos
+    public function courses_dictated(){
+        return $this->hasMany(Course::class);
+    }
+    public function comments(){
+        return $this->hasMany(Comment::class);
+    }
+
+    public function reactions(){
+        return $this->hasMany(Reaction::class);
+    }
+
+    public function reviews(){
+        return $this->hasMany(Review::class);
+    }
+
+    //Relacion muchos a muchos
+    public function courses_enrolled(){
+        return $this->belongsToMany(Course::class);
+    }
+
+    public function lessons(){
+        return $this->belongsToMany(Lesson::class);
+    }
 }
