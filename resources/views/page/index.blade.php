@@ -59,8 +59,10 @@
             {{--                </div>--}}
             {{--            </div>--}}
             {{--        </div>--}}
-            <div class="slider-area slider-bg-5 relative-position">
-                <div class="slider-text">
+
+
+{{--            <div class="slider-area slider-bg-5 relative-position">--}}
+{{--                <div class="slider-text">--}}
 {{--                    <div class="layer-1-2">--}}
 {{--                        <div class="coming-countdown ul-li">--}}
 {{--                            <h4 class="text-warning pb-4 d-block font-weight-bold">INICO DE CLASES 15 DE MAYO <br> SEPARA TU VACANTE</h4>--}}
@@ -88,22 +90,24 @@
 
 {{--                        </div>--}}
 {{--                    </div>--}}
-                    <div class="section-title mb20 headline text-center ">
-                        <div class="layer-1-3">
-                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT <br> MANAGEMENT</span></h1>
-                            <h1 class="d-md-none third-slide font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>
+{{--                    <div class="section-title mb20 headline text-center ">--}}
+{{--                        <div class="layer-1-3">--}}
+{{--                            <h1 class="d-none d-md-block third-slide display-3 font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT <br> MANAGEMENT</span></h1>--}}
+{{--                            <h1 class="d-md-none third-slide font-weight-bold text-purple mb-sm-3 rgba-white-6 p-3 rounded shadow"><span>LEAN AGILE PROJECT MANAGEMENT</span></h1>--}}
 {{--                            <h4 class="mb-3 font-weight-bold text-white">EN EDIFICACIONES</h4>--}}
-                        </div>
-                    </div>
-                    <div class="layer-1-4 mb-6">
-                        <div class="about-btn text-center relative z-50">
-                            <div class="genius-btn text-center text-uppercase ul-li-block bold-font">
-                                <a href="{{route('landingpmi')}}">Ver más <i class="fas fa-caret-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="layer-1-4 mb-6">--}}
+{{--                        <div class="about-btn text-center relative z-50">--}}
+{{--                            <div class="genius-btn text-center text-uppercase ul-li-block bold-font">--}}
+{{--                                <a href="{{route('landingpmi')}}">Ver más <i class="fas fa-caret-right"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+
+
             <div class="slider-area slider-bg-5 relative-position">
                 <div class="slider-text">
                     <div class="section-title mb20 headline text-center ">
@@ -176,15 +180,16 @@
                     <div class="course-pic relative-position mb25">
                         <img src="{{asset('img/course/c-a3.jpg')}}" alt="" class="w-100 bw">
                         <div class="course-price text-center gradient-bg">
-                            <span>Nuevo</span>
+                            <span>Próximamente</span>
                         </div>
-                        <div class="course-details-btn">
-                            <a href="{{route('landingpmi')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>
-                        </div>
+{{--                        <div class="course-details-btn">--}}
+{{--                            <a href="{{route('landingpmi')}}">DETALLE DEL CURSO <i class="fas fa-arrow-right"></i></a>--}}
+{{--                        </div>--}}
                     </div>
                     <div class="course-item-text">
                         <div class="course-title mt10 headline pb45 relative-position">
-                            <h3><a href="{{route('landingpmi')}}">Lean Agile Project Management</a></h3>
+{{--                            <h3><a href="{{route('landingpmi')}}">Lean Agile Project Management</a></h3>--}}
+                            <h3>Lean Agile Project Management</h3>
                         </div>
                     </div>
                 </div>
@@ -694,5 +699,5 @@
 {{--    </section>--}}
     <!-- End teacher section
         ============================================= -->
-    
+
 @endsection
