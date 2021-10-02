@@ -887,10 +887,10 @@
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        3 certificados por modulo de Starking7 con acceso ilimitado a Modulo Profesional de Certificados y Acreditación BIM. Incluido en el precio de matricula.
+                                        3 certificados por modulo de Starking7 con acceso ilimitado a Modulo Profesional de Certificados y Acreditación BIM.
                                     </div>
                                     <div class="card-footer font-weight-bold h4 text-warning">
-                                        US$ 40
+                                        INCLUIDO EN EL PRECIO DE MATRICULA
                                     </div>
                                 </div>
                             </div>
