@@ -59,9 +59,9 @@
                                         <div class="col">
                                             <img src="{{asset('img/sponsor/autodesk-white.png')}}" alt="" class="w-100">
                                         </div>
-                                        <div class="col">
-                                            <img src="{{asset('img/sponsor/colegio.png')}}" alt="" class="w-100">
-                                        </div>
+{{--                                        <div class="col">--}}
+{{--                                            <img src="{{asset('img/sponsor/colegio.png')}}" alt="" class="w-100">--}}
+{{--                                        </div>--}}
                                     </div>
                                 </div>
 
@@ -139,13 +139,13 @@
                         <div class="panel-title" id="headingThree">
                             <h3 class="mb-0">
                                 <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <i class="fas fa-file-alt"></i> Certificacion del Colegio de Ingenieros del Perú
+                                    <i class="fas fa-file-alt"></i> Módulo profesional de certificados y acreditacion BIM
                                 </button>
                             </h3>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="panel-body p-0">
-                                Gracias a nuestro convenio, podrás obtener certificados a nombre del Colegio de Ingenieros del Perú Consejo departamental Cusco, válidos a nivel nacional, que incluyen una codificación y la firma del Decano de dicha Institución.
+                                Contarás con un espacio virtual para exhibir tu perfil profesional en Formación BIM, donde podrás seguir, enlazar, compartir y descargar tus certificados avalados y firmados por los mejores instructores internacionales en BIM.
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
             </div>
             <div class="best-course-area mb45">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex">
                         <div class="best-course-pic-text relative-position">
                             <div class="best-course-pic relative-position">
                                 <img src="{{asset('img/course/cer1.jpg')}}" alt="">
@@ -242,23 +242,22 @@
                             <div class="best-course-text">
                                 <div class="course-title mb20 headline relative-position">
 {{--                                    <h3><a href="#">Fully Responsive Web Design &amp; Development.</a></h3>--}}
-                                    <p>3 certificados por módulo de Starking7 en convenio con el Colegio de Ingenieros del Perú
-                                        (válidos a nivel nacional - Perú</p>
+                                    <p>3 Certificados de Starking7 con acceso a Modulo Profesional de Certificados y Acreditación BIM</p>
                                 </div>
                                 <div class="course-meta">
                                     <div class="row">
                                         <div class="col">
-                                            <img src="{{asset('img/sponsor/ST7.png')}}" alt="" class="w-100">
+                                            <img src="{{asset('img/logo/logo-starking-s.png')}}" alt="" class="w-100">
                                         </div>
-                                        <div class="col">
-                                            <img src="{{asset('img/sponsor/colegio.png')}}" alt="" class="w-100">
-                                        </div>
+{{--                                        <div class="col">--}}
+{{--                                            <img src="{{asset('img/sponsor/colegio.png')}}" alt="" class="w-100">--}}
+{{--                                        </div>--}}
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-flex">
                         <div class="best-course-pic-text relative-position">
                             <div class="best-course-pic relative-position">
                                 <img src="{{asset('img/course/cer2.jpg')}}" alt="">
@@ -784,8 +783,8 @@
                                                 <td>Virtuales</td>
                                             </tr>
                                             <tr>
-                                                <td>Exámenes ACP</td>
-                                                <td>Presenciales</td>
+                                                <td>Exámenes ACP y ACU</td>
+                                                <td>Presenciales y virtuales</td>
                                             </tr>
                                         </table>
                                     </div>
@@ -798,15 +797,15 @@
                                         <table class="table table-dark">
                                             <tr>
                                                 <td>Matrículas</td>
-                                                <td>hasta el 27 de abril de 2021</td>
+                                                <td>hasta el 17 de octubre de 2021</td>
                                             </tr>
                                             <tr>
                                                 <td>Inicio</td>
-                                                <td>27 de abril de 2021</td>
+                                                <td>18 de octubre de 2021</td>
                                             </tr>
                                             <tr>
                                                 <td>Finalización</td>
-                                                <td>27 de agosto de 2021</td>
+                                                <td>18 de febrero de 2022</td>
                                             </tr>
                                         </table>
                                     </div>
@@ -820,11 +819,11 @@
                                 <table class="table table-dark">
                                     <tr>
                                         <td>MARTES Y JUEVES</td>
-                                        <td>7:00 PM a 10:00 PM</td>
+                                        <td>7:00 PM a 9:00 PM</td>
                                     </tr>
                                     <tr>
                                         <td>SABADOS</td>
-                                        <td>3:00 PM a 7:00 PM</td>
+                                        <td>9:00 AM a 1:00 PM</td>
                                     </tr>
                                 </table>
                             </div>
@@ -851,7 +850,7 @@
                     <div class="card text-white bg-dark mb-3 w-100 text-center">
                         <div class="card-header">COSTO REGULAR</div>
                         <div class="card-body">
-                            <h5 class="card-title text-warning">US$ 459</h5>
+                            <h5 class="card-title text-warning">US$ 419</h5>
                         </div>
                     </div>
                 </div>
@@ -859,7 +858,7 @@
                     <div class="card text-white bg-success mb-3 w-100 text-center">
                         <div class="card-header">COSTO ESTUDIANTES</div>
                         <div class="card-body">
-                            <h5 class="card-title text-warning">US$ 389</h5>
+                            <h5 class="card-title text-warning">US$ 39</h5>
                         </div>
                     </div>
                 </div>
@@ -871,26 +870,24 @@
                         <h2><span>COSTO DE LAS CERTIFICACIONES (ADICIONALES).</span></h2>
                         <p class="mt-5">Arma tu propio paquete con las certificaciones que más se adecúen a tus intereses:</p>
                         <div class="row justify-content-center mt-5">
-                            <div class="col-12 col-sm-6">
+                            <div class="col-12 col-sm-6 d-flex">
                                 <div class="card text-white bg-dark mb-3 w-100 text-center">
                                     <div class="card-header">
                                         <div class="row justify-content-center align-items-center">
                                             <div class="col-8 col-sm-6">
                                                 <div class="row align-items-center">
                                                     <div class="col">
-                                                        <img src="{{asset('img/logo/logo-starking.png')}}" alt="" class="w-100">
+                                                        <img src="{{asset('img/logo/logo-starking-s.png')}}" alt="" class="w-100">
                                                     </div>
-                                                    <div class="col">
-                                                        <img src="{{asset('img/logo/logo-colegio.png')}}" alt="" class="w-100">
-                                                    </div>
+{{--                                                    <div class="col">--}}
+{{--                                                        <img src="{{asset('img/logo/logo-colegio.png')}}" alt="" class="w-100">--}}
+{{--                                                    </div>--}}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                            3 CERTIFICADOS DE STARKING7 EN CONVENIO CON EL COLEGIO DE INGENIEROS DEL PERU
-                                            CONSEJO DEPARTAMENTAL CUSCO
-                                            (VALIDOS A NIVEL NACIONAL - PERU)
+                                        3 certificados por modulo de Starking7 con acceso ilimitado a Modulo Profesional de Certificados y Acreditación BIM. INCLUIDO EN EL PRECIO
                                     </div>
                                     <div class="card-footer font-weight-bold h4 text-warning">
                                         US$ 40
@@ -971,18 +968,19 @@
             </div>
             <div class="row bg-white">
                 <div class="col-12">
-                    <img src="{{asset('img/banner/modalidad1.png')}}" alt="" class="w-100 mb-4">
+                    <img src="{{asset('img/banner/costo-regular1.png')}}" alt="" class="w-100 mb-4">
                 </div>
                 <div class="col-12">
-                    <img src="{{asset('img/banner/modalidad2.png')}}" alt="" class="w-100 mb-4">
+                    <img src="{{asset('img/banner/costor-elugar2.png')}}" alt="" class="w-100 mb-4">
                     <p class="small">* COSTO REGULAR: APLICA A PROFESIONALES, BACHILLERES Y TECNICOS</p>
                     <p class="small">** COSTO ESTUDIANTE: APLICA A ESTUDIANTES UNIVERSITARIOS Y DE INSTITUTOS</p>
+                    
                 </div>
             </div>
             <div class="row">
                 <div class="col">
                     <h4 class="text-danger">Importante:</h4>
-                    <p>Los exámenes para el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU” se realizan de manera presencial en nuestros Centros Autorizados de Pruebas Certiport ubicados en distintas ciudades del Perú (Consultar ciudades disponibles).</p>
+                    <p>Los exámenes para el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU” se realizan de manera presencial.</p>
                 </div>
             </div>
         </div>
@@ -992,115 +990,114 @@
         <div class="container">
             <div class="section-title mb45 headline text-center">
                 <span class="subtitle text-uppercase">MODALIDADES GRUPALES</span>
-                <h2><span>TE OFRECEMOS TAMBIEN UN 20% DE DESCUENTO EN LAS SIGUIENTES
-                     MODALIDADES GRUPALES</span></h2>
+                <h2><span>TE OFRECEMOS TAMBIEN UN 20% DE MANERA PRESENCIAL Y VIRTUAL AHORA DESDE CUALQUIER LUGAR DEL PERÚ</span></h2>
             </div>
 
             <div class="row">
                 <div class="col">
-                    <img src="{{asset('img/banner/modalidada.png')}}" alt="" class="w-100 mb-4">
-                    <img src="{{asset('img/banner/modalidadb.png')}}" alt="" class="w-100 mb-4">
+                    <img src="{{asset('img/banner/modalidad-ga.png')}}" alt="" class="w-100 mb-4">
+                    <img src="{{asset('img/banner/modalidad-gb.png')}}" alt="" class="w-100 mb-4">
                     <p>* Los montos señalados en los cuadros son individuales. En cualquiera de los casos completar la primera cuota grupal para asegurar las 3 vacantes.</p>
                 </div>
             </div>
 
-            <div class="section-title-2 mt-5 mb65 headline text-left "  >
-                <div class="row">
-                    <div class="col">
-                        <h2><span>¡Y SI DESEAS OBTENER TODAS LAS CERTIFICACIONES OBTEN ESTA SUPER PROMOCION!</span></h2>
-                        <p class="mt-5">PAQUETE COMPLETO DE CERTIFICACIONES BIM</p>
-                        <div class="row justify-content-center mt-5">
-                            <div class="col-12 col-sm-6">
-                                <div class="card text-white bg-dark mb-3 w-100 text-center">
-                                    <div class="card-header font-weight-bold h4 text-warning">SUPER PAQUETE - REGULAR</div>
-                                    <div class="card-body">
-                                        <div class="about-list mb65 ul-li-block text-white mb-0">
-                                            <ul class="text-left">
-                                                <li class="text-white">PROGRAMA BIM</li>
-                                                <li class="text-white">CERTIFICADO DEL COLEGIO DE DINGENIEROS DEL PERU</li>
-                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED USER” ACU</li>
-                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED PROFESIONAL” ACP</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row justify-content-center align-items-center">
-                                            <div class="col-12">
-                                                <div class="row align-items-center">
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/logo/logo-starking.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/autodesk-user.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/r2.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/autodesk-profesional.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/r1.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/logo/logo-colegio.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-footer font-weight-bold">
-                                        <p class="m-0"><del>US$ 649</del></p>
-                                        <p class="m-0 text-warning h4">US$ 619 (EN UN SOLO PAGO)</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="card text-white bg-dark mb-3 w-100 text-center">
-                                    <div class="card-header font-weight-bold h4 text-success">SUPER PAQUETE - ESTUDIANTES</div>
-                                    <div class="card-body">
-                                        <div class="about-list mb65 ul-li-block text-white mb-0">
-                                            <ul class="text-left">
-                                                <li class="text-white">PROGRAMA BIM</li>
-                                                <li class="text-white">CERTIFICADO DEL COLEGIO DE DINGENIEROS DEL PERU</li>
-                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED USER” ACU</li>
-                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED PROFESIONAL” ACP</li>
-                                            </ul>
-                                        </div>
-                                        <div class="row justify-content-center align-items-center">
-                                            <div class="col-12">
-                                                <div class="row align-items-center">
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/logo/logo-starking.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/autodesk-user.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/r2.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/autodesk-profesional.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/sponsor/r1.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="{{asset('img/logo/logo-colegio.png')}}" alt="" class="w-100 p-3">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-footer font-weight-bold">
-                                        <p class="m-0"><del>US$ 649</del></p>
-                                        <p class="m-0 text-warning h4">US$ 549 (EN UN SOLO PAGO)</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--            <div class="section-title-2 mt-5 mb65 headline text-left "  >--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col">--}}
+{{--                        <h2><span>¡Y SI DESEAS OBTENER TODAS LAS CERTIFICACIONES OBTEN ESTA SUPER PROMOCION!</span></h2>--}}
+{{--                        <p class="mt-5">PAQUETE COMPLETO DE CERTIFICACIONES BIM</p>--}}
+{{--                        <div class="row justify-content-center mt-5">--}}
+{{--                            <div class="col-12 col-sm-6">--}}
+{{--                                <div class="card text-white bg-dark mb-3 w-100 text-center">--}}
+{{--                                    <div class="card-header font-weight-bold h4 text-warning">SUPER PAQUETE - REGULAR</div>--}}
+{{--                                    <div class="card-body">--}}
+{{--                                        <div class="about-list mb65 ul-li-block text-white mb-0">--}}
+{{--                                            <ul class="text-left">--}}
+{{--                                                <li class="text-white">PROGRAMA BIM</li>--}}
+{{--                                                <li class="text-white">CERTIFICADO DEL COLEGIO DE DINGENIEROS DEL PERU</li>--}}
+{{--                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED USER” ACU</li>--}}
+{{--                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED PROFESIONAL” ACP</li>--}}
+{{--                                            </ul>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="row justify-content-center align-items-center">--}}
+{{--                                            <div class="col-12">--}}
+{{--                                                <div class="row align-items-center">--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/logo/logo-starking.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/autodesk-user.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/r2.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/autodesk-profesional.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/r1.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/logo/logo-colegio.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="card-footer font-weight-bold">--}}
+{{--                                        <p class="m-0"><del>US$ 649</del></p>--}}
+{{--                                        <p class="m-0 text-warning h4">US$ 619 (EN UN SOLO PAGO)</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="col-12 col-sm-6">--}}
+{{--                                <div class="card text-white bg-dark mb-3 w-100 text-center">--}}
+{{--                                    <div class="card-header font-weight-bold h4 text-success">SUPER PAQUETE - ESTUDIANTES</div>--}}
+{{--                                    <div class="card-body">--}}
+{{--                                        <div class="about-list mb65 ul-li-block text-white mb-0">--}}
+{{--                                            <ul class="text-left">--}}
+{{--                                                <li class="text-white">PROGRAMA BIM</li>--}}
+{{--                                                <li class="text-white">CERTIFICADO DEL COLEGIO DE DINGENIEROS DEL PERU</li>--}}
+{{--                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED USER” ACU</li>--}}
+{{--                                                <li class="text-white">CERTIFICADO “AUTODESK CERTIFIED PROFESIONAL” ACP</li>--}}
+{{--                                            </ul>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="row justify-content-center align-items-center">--}}
+{{--                                            <div class="col-12">--}}
+{{--                                                <div class="row align-items-center">--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/logo/logo-starking.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/autodesk-user.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/r2.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/autodesk-profesional.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/sponsor/r1.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                    <div class="col-4">--}}
+{{--                                                        <img src="{{asset('img/logo/logo-colegio.png')}}" alt="" class="w-100 p-3">--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="card-footer font-weight-bold">--}}
+{{--                                        <p class="m-0"><del>US$ 649</del></p>--}}
+{{--                                        <p class="m-0 text-warning h4">US$ 549 (EN UN SOLO PAGO)</p>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
-            </div>
+{{--            </div>--}}
 
         </div>
     </section>
