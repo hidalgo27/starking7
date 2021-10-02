@@ -858,7 +858,7 @@
                     <div class="card text-white bg-success mb-3 w-100 text-center">
                         <div class="card-header">COSTO ESTUDIANTES</div>
                         <div class="card-body">
-                            <h5 class="card-title text-warning">US$ 39</h5>
+                            <h5 class="card-title text-warning">US$ 389</h5>
                         </div>
                     </div>
                 </div>
@@ -887,7 +887,7 @@
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        3 certificados por modulo de Starking7 con acceso ilimitado a Modulo Profesional de Certificados y Acreditación BIM. INCLUIDO EN EL PRECIO
+                                        3 certificados por modulo de Starking7 con acceso ilimitado a Modulo Profesional de Certificados y Acreditación BIM. Incluido en el precio de matricula.
                                     </div>
                                     <div class="card-footer font-weight-bold h4 text-warning">
                                         US$ 40
