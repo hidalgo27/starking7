@@ -818,7 +818,7 @@
                             <div class="col-12 col-sm-6">
                                 <table class="table table-dark">
                                     <tr>
-                                        <td>MARTES Y JUEVES</td>
+                                        <td>LUNES, MIERCOLES Y JUEVES</td>
                                         <td>7:00 PM a 9:00 PM</td>
                                     </tr>
                                     <tr>
