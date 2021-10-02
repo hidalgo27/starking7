@@ -54,7 +54,7 @@ class UserController extends Controller
     }
 
     public function landing(){
-        $landing = LandingBim::where('estado', '1')->get();
+        $landing = LandingBim::where('estado', '3')->get();
         $departamento = Departamento::all();
         $provincia = Provincia::all();
         $distrito = Distrito::all();

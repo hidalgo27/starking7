@@ -974,7 +974,7 @@
                     <img src="{{asset('img/banner/costor-elugar2.png')}}" alt="" class="w-100 mb-4">
                     <p class="small">* COSTO REGULAR: APLICA A PROFESIONALES, BACHILLERES Y TECNICOS</p>
                     <p class="small">** COSTO ESTUDIANTE: APLICA A ESTUDIANTES UNIVERSITARIOS Y DE INSTITUTOS</p>
-                    
+
                 </div>
             </div>
             <div class="row">
@@ -1226,7 +1226,7 @@
                                 <h3 class="bold-font"><span>Registro</span> Gratuito.</h3>
                                 <p>Pre inscripciones para el curso BIM</p>
                             </div>
-                            <example-component :estado="2"></example-component>
+                            <example-component :estado="3"></example-component>
                         </div>
                     </div>
                     <div class="bg-mockup">

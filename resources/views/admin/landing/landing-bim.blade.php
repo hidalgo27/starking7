@@ -3,7 +3,7 @@
 @section('title', 'Landing BIM')
 
 @section('content_header')
-    <h1>LISTA LANDING BIM</h1>
+    <h1>LISTA LANDING BIM oct-2021</h1>
 @stop
 
 @section('content')

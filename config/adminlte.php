@@ -269,19 +269,19 @@ return [
 //        ],
         ['header' => 'LANDING'],
         [
-            'text' => 'List BIM',
+            'text' => 'List BIM OCT. 2021',
             'route'         => 'admin.landing-bim',
 //            'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-list',
 
         ],
-        [
-            'text' => ' List PMI',
-            'route'         => 'admin.landing-pmi',
-//            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-list',
-
-        ],
+//        [
+//            'text' => ' List PMI',
+//            'route'         => 'admin.landing-pmi',
+////            'url'  => 'admin/settings',
+//            'icon' => 'fas fa-fw fa-list',
+//
+//        ],
 //        [
 //            'text' => 'change_password',
 //            'url'  => 'admin/settings',
