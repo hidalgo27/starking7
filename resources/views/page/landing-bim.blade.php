@@ -20,7 +20,7 @@
                             <p class="text-white d-none d-sm-block">Alcanzarás el “Autodesk Certified Professional ACP” y “Autodesk Certified User ACU”: las certificaciones de mayor prestigio a nivel mundial que acreditan el dominio de Software para la aplicación de la Metodología BIM.</p>
                         </div>
                     </div>
-{{--                    <div class="layer-1-2 mt-sm-5 mb-4 text-center">--}}
+                    <div class="layer-1-2 mt-sm-5 mb-4 text-center">
 {{--                        <div class="coming-countdown ul-li">--}}
 {{--                            <p class="text-warning mt-3 font-weight-bold">INICO DE CLASES 27 DE ABRIL. SEPARA TU VACANTE.</p>--}}
 {{--                            <ul>--}}
@@ -45,8 +45,8 @@
 {{--                                </li>--}}
 {{--                            </ul>--}}
 {{--                        </div>--}}
-{{--                        <a href="#inscripciones" class="btn btn-warning text-white font-weight-bold">Pre inscripciones aquí</a>--}}
-{{--                    </div>--}}
+                        <a href="#inscripciones" class="btn btn-warning text-white font-weight-bold">Pre inscripciones aquí</a>
+                    </div>
 
 
                         <div class="container">
